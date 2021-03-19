@@ -3,4 +3,4 @@
 [MITM]
 hostname = %APPEND% *api.itranslateapp.com
 [Script]
-iTranslate = type=http-response,pattern=^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$,requires-body=1,max-size=0,script-path=scripts/langkhach/itranslate.js,script-update-interval=-1
+iTranslate = type=http-response,pattern=^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/itranslate.js,script-update-interval=-1

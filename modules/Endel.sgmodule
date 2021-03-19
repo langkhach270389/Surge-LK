@@ -3,4 +3,4 @@
 [MITM]
 hostname = %APPEND% api-production.endel.io
 [Script]
-Endel = type=http-response,pattern=^https:\/\/api-production\.endel\.io\/.*\/call,requires-body=1,max-size=0,script-path=scripts/langkhach/endel.js
+Endel = type=http-response,pattern=^https:\/\/api-production\.endel\.io\/.*\/call,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/endel.js
