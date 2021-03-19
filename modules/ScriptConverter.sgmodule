@@ -1,0 +1,7 @@
+#!name=ScriptConverter
+#!desc=ScriptConverter
+[Script]
+ScriptConverter=type=http-response,pattern=^https?:\/\/(raw|gist)\.githubusercontent.com/.+\.js$, script-path=scripts/langkhach/js-converter.js, requires-body = true
+
+[MITM]
+hostname=%APPEND% raw.githubusercontent.com, gist.githubusercontent.com

@@ -1,0 +1,8 @@
+#!name=Unlock Camscanner 
+#!desc=Unlock Camscanner Gold Membership 
+
+[Script]
+Camscanner = requires-body=1,script-path=https://raw.githubusercontent.com/cpphut/surge_module/main/camscanner.js,type=http-response,pattern= https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?
+
+[MITM]
+hostname = %APPEND% ap*.intsig.net

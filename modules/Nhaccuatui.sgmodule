@@ -1,0 +1,8 @@
+#!name=Unlock Nhaccuatui
+#!desc=Nhaccuatui
+
+[MITM]
+hostname = %APPEND% graph.nhaccuatui.com
+
+[Script]
+Nhaccuatui = type=http-response,pattern=^https:\/\/graph\.nhaccuatui\.com\/.*\/users\/info,requires-body=1,max-size=0,debug=1,script-path=scripts/langkhach/nhaccuatui.js,script-update-interval=-1 

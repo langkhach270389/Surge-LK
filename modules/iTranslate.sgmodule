@@ -1,0 +1,6 @@
+#!name=Unlock iTranslate
+#!desc=iTranslate
+[MITM]
+hostname = %APPEND% *api.itranslateapp.com
+[Script]
+iTranslate = type=http-response,pattern=^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$,requires-body=1,max-size=0,script-path=scripts/langkhach/itranslate.js,script-update-interval=-1

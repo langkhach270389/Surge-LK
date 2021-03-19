@@ -1,0 +1,15 @@
+#!name=NextDNS-Utra-Low
+#!desc=DNS Over HTTPS
+
+[Host]
+ipv6.* = server: 2a07:a8c0::39:94b1
+
+[General]
+dns-server = 45.90.28.131, 45.90.30.131
+doh-server = https://dns.nextdns.io/3994b1/L%C3%A3ng%20Kh%C3%A1ch%27s%20iPhone
+doh-follow-outbound-mode = true
+doh-format = wireformat
+always-real-ip = link-ip.nextdns.io
+
+[Rule]
+DOMAIN-KEYWORD,nextdns,DIRECT

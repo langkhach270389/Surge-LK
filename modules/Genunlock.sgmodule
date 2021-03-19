@@ -1,0 +1,8 @@
+#!name=Gen Unlock.apps
+#!desc=Gen Unlock.apps
+
+[MITM]
+hostname=%APPEND% unlock.apps
+
+[Script]
+Gen unlock = type=http-request,pattern=^https:\/\/unlock\.apps,max-size=0,debug=1,script-path=scripts/langkhach/regex.js

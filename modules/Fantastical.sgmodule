@@ -1,0 +1,6 @@
+#!name=Unlock Fantastical
+#!desc=Fantastical
+[MITM]
+hostname = %APPEND% api.flexibits.com
+[Script]
+Fantastical = type=http-response,pattern=^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$,requires-body=1,max-size=0,script-path=scripts/langkhach/fantastical.js
