@@ -1,0 +1,11 @@
+#!name=Shopee++
+#!desc=Shopee Coin
+
+[Script]
+Shopee++Checkin=type=cron, cronexp= 0 6 * * *, timeout=15, script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/shopee_checkin.js
+
+Shopee++Cookie = type=http-request,pattern=^https:\/\/shopee\.vn\/api\/.+\/platform\/get_ft_v2\?userid,max-size=0,debug=1,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/shopee_cookie.js
+
+[MITM]
+hostname = %APPEND% shopee.vn
+

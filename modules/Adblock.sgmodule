@@ -1,0 +1,14 @@
+#!name=Adblock hostsvn
+#!desc=Adblock VietNam
+
+[General]
+force-http-engine-hosts = %APPEND% *api.zaloapp.com
+
+[MITM]
+hostname=%APPEND% ,*zalo.me, graph.nhaccuatui.com, spclient.wg.spotify.com, api*.tiktokv.com, api*.musical.ly, *-hl.snssdk.com
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-surge-rewrite.conf,ADVERTISING,update-interval=21600
+RULE-SET,https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-surge-rule.conf,ADVERTISING,update-interval=21600
+RULE-SET,https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-surge-FB.conf,ADVERTISING,update-interval=21600
+RULE-SET,https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-surge-exceptions-rule.conf, DIRECT,update-interval=21600

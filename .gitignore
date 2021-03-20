@@ -2,3 +2,9 @@
 /modules/Old_iPA_Downloader-2.sgmodule
 /scripts/langkhach/paclocal.js
 /servers/proxy.list
+/IAP_PREMIUM_LK_Release_Local.conf
+/IAP_PREMIUM_LK_Release.conf
+/scripts/langkhach/github-private.js
+/modules/github.js.sgmodule
+/github.js.sgmodule
+/modules/Github-Private-Local.sgmodule

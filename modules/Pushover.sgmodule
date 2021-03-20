@@ -1,0 +1,6 @@
+#!name=Unlock Pushover
+#!desc=Pushover
+[MITM]
+hostname = %APPEND% api.pushover.net
+[Script]
+Pushover = type=http-response,pattern=^https://api.pushover.net/1/messages.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/pushover.js,script-update-interval=-1

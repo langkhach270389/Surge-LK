@@ -1,0 +1,9 @@
+DOMAIN,ocsp.int-x3.letsencrypt.org
+DOMAIN,ocsp.apple.com
+DOMAIN,world-gen.g.aaplimg.com
+DOMAIN,iadsdk.apple.com
+DOMAIN,googleads.g.doubleclick.net
+DOMAIN,googletagservices.com
+DOMAIN,stats.g.doubleclick.net
+DOMAIN,adclick.g.douclick.net
+USER-AGENT,com.apple.trustd/*
