@@ -14,13 +14,15 @@ let obj = $request.body;
 
 
 if (url.indexOf(api) != -1) {
-  var appid = url.match(/\d{6,}$/).toString();
-  $.write(appid, "#oldappid");
+var appid = url.match(/\d{6,}$/);
+if(appid != null){
+  $.write(appid[0], "#oldappid");
   $.notify(
     `🟢OLD_IPA`,
     `->Proxy: ${$network.v4.primaryAddress}:6152`,
     `->iTunes PC search app and click Get`
   );
+}
 }
 if (url.indexOf(buy) != -1) {
   var appid = $.read("#oldappid");
