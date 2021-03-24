@@ -1,5 +1,5 @@
 #!name=Unlock Quizlet
-#!desc=Quizlet
+#!desc=Quizlet Plus
 [MITM]
 hostname = %APPEND% api.quizlet.com
 [Script]
