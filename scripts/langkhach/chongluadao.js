@@ -4,7 +4,7 @@
 @file: chongluadao.js 
 @createTime: 210312
 */
-const $ = API("HieuPC-CLD++", true);
+const $ = API("HieuPC-CLD++");
 
 const arrwhite = ["www.facebook.com", "dmhieupc.com.vn", "www.youtube.com"];
 
