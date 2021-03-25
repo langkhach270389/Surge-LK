@@ -15,7 +15,7 @@ if(resp.statusCode == 200){
 $.log(`🟢Success`);
 let body= JSON.parse(resp.body);
 var arrdomain =[];
-$.log(`Block: ${body.length} rule`)
+$.log(`ALL: ${body.length} domain`)
 for(var i=0; i< body.length;i++){
 arrdomain[i] = url2domain(body[i].url);
 }
