@@ -1,4 +1,6 @@
-re('\\w{1,2}\/\\w{1,2}\/\\w{4}@"subscriptionState":"\\w+"@"isPDFExpert6User":false@PDFExpert5','25/11/2099@"subscriptionState":"active"@"isPDFExpert6User":true@PDFExpert6');
+
+re('\\w{1,2}\/\\w{1,2}\/\\w{4}@"subscriptionState":"\\w+"@"is(.+)User":false','25/11/2099@"subscriptionState":"active"@"is$1User":true');
+
 function re() {
 var body = $response.body;
  if (arguments[0].includes("@")) {
