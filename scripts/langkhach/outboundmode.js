@@ -1,91 +1,58 @@
-/* 
-event network-changed by Tempoblink
-version: 2.1
-auther: tempoblink
-[Script]
-Outbound Mode = type=event,event-name=network-changed,debug=1,script-path=Outbound-changed.js
-*/
+//event network-changed script-path=network-changed.js
+//version: 2.2
+//auther: tempoblink
 
 //The Notification Format.
-//You can change the notification by yourself.
-let TITLE = 'Outbound-changed';
+let TITLE = 'Outbound Changed!';
 let SUBTITLE_CELLULAR = 'Cellular: ';
 let SUBTITLE_WIFI = 'Wi-Fi: ';
-let ABOUT_MODE = 'Outbound Mode -> ';
-let ABOUT_TIME = 'Time: ';
-let FORMAT_TIME = "yyyy-MM-dd hh:mm:ss";
+let ABOUT_MODE = 'Outbound mode: ';
+let ABOUT_IP = 'New IP address: ';
+let VIETTEL = "VIETTEL";
+let VINAPHONE = "VINAPHONE";
+let MOBIFONE = "MOBIFONE";
 
-//white ssid and black ssid ob rule.
-let WHITENAME = [
-            "Tầng 3",
+
+//white ssid and black ssid.
+let ALLOWLIST = [
+            "home_ssid1",
             "home_ssid2"
     ];
-let BLACKNAME = [
+let BLOCKLIST = [
             "free_ssid1",
             "free_ssid2"
     ];
 
-//The default outbound, you can change it : 'Direct' or 'Rule' or 'Global-proxy'.
-//BLACK|WHITE|OTHERS is to control the WIFI outbound mode, CELLULAR is to control the 2G/3G/4G outbound mode. 
-//For example:
-//BLACKNAME use BLACK select outbound is direct
-//WHITENAME use WHITE select outbound is rule
-let BLACK = 'Direct';
-let WHITE = 'Rule';
-let OTHERS = 'Rule';
-let CELLULAR = 'Rule';
+//The default outbound: 'Direct' or 'Rule' or 'Global-proxy'.
+let BlockList = "Direct";
+let AllowList = "Rule";
+let Others = "Rule";
+let Cellular = "Rule";
 
-let NETWORK = $network.wifi.ssid;
-let TAG = false;
-
-Date.prototype.format = function(fmt) { 
-     var o = { 
-        "M+" : this.getMonth()+1,                 
-        "d+" : this.getDate(),                   
-        "h+" : this.getHours(),                   
-        "m+" : this.getMinutes(),                
-        "s+" : this.getSeconds(),                
-        "q+" : Math.floor((this.getMonth()+3)/3), 
-        "S"  : this.getMilliseconds()            
-    }; 
-    if(/(y+)/.test(fmt)) {
-            fmt=fmt.replace(RegExp.$1, (this.getFullYear()+"").substr(4 - RegExp.$1.length)); 
-    }
-     for(var k in o) {
-        if(new RegExp("("+ k +")").test(fmt)){
-             fmt = fmt.replace(RegExp.$1, (RegExp.$1.length==1) ? (o[k]) : (("00"+ o[k]).substr((""+ o[k]).length)));
-         }
-     }
-    return fmt; 
-}        
-
-let DATE = $script.startTime.format(FORMAT_TIME);
-
-function changeOutboundMode(is_cellular, mode) {
-    if (is_cellular) {
-        NETWORK = SUBTITLE_CELLULAR + $network.v4.primaryAddress;
-    }else {
-        NETWORK = SUBTITLE_WIFI + NETWORK;
-    }
+function changeOutboundMode(mode) {
+    ABOUT_IP += $network.v4.primaryAddress;
     if($surge.setOutboundMode(mode.toLowerCase()))
-        $notification.post(TITLE, NETWORK, ABOUT_MODE + mode + '\n' + ABOUT_TIME + DATE);
-    $done();
+        $notification.post(TITLE, NETWORK, ABOUT_MODE + mode + '\n' + ABOUT_IP);
 }
 
 //wifi select outbound
-if ($network.v4.primaryInterface == "en0" && NETWORK != null) {
-    if (BLACKNAME.indexOf(NETWORK) != -1) {
-        changeOutboundMode(TAG, BLACK);
-    } else if (WHITENAME.indexOf(NETWORK) != -1) {
-        changeOutboundMode(TAG, WHITE);
+let NETWORK = "";
+if ($network.v4.primaryInterface == "en0") {
+    NETWORK += SUBTITLE_WIFI + $network.wifi.ssid;
+    if (BLOCKLIST.indexOf($network.wifi.ssid) != -1) {
+        changeOutboundMode(BlockList);
+    } else if (ALLOWLIST.indexOf($network.wifi.ssid) != -1) {
+        changeOutboundMode(AllowList);
     } else {
-        changeOutboundMode(TAG, OTHERS);
+        changeOutboundMode(Others);
     }
+}else if($network.v4.primaryInterface == "pdp_ip0") {
+    let CARRIER = $network['cellular-data'].carrier;  
+    if(CARRIER == "452-01") SUBTITLE_CELLULAR += MOBIFONE;
+    else if(CARRIER == "452-02") SUBTITLE_CELLULAR += VINAPHONE;
+    else if(CARRIER == "452-04") SUBTITLE_CELLULAR += VIETTEL;
+    NETWORK += SUBTITLE_CELLULAR + " " + $network['cellular-data'].radio;
+    changeOutboundMode(Cellular);
 }
 
-//cellular select outbound
-if($network.v4.primaryInterface == "pdp_ip0") {
-    TAG = true;
-    changeOutboundMode(TAG, CELLULAR);
-}
 $done();

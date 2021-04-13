@@ -1,7 +1,5 @@
 #!name=Warp++
 #!desc=Hack Data WARP++, 1GB/15s(cronexp= */15 * * * * *)
-[Rule]
-DOMAIN,api.cloudflareclient.com,RANDOM
 
 [Host]
 api.cloudflareclient.com = server: 1.1.1.1

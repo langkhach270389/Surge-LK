@@ -5,7 +5,7 @@
 force-http-engine-hosts = %APPEND% *api.zaloapp.com
 
 [MITM]
-hostname=%APPEND% ,*zalo.me, graph.nhaccuatui.com, spclient.wg.spotify.com, api*.tiktokv.com, api*.musical.ly, *-hl.snssdk.com
+hostname=%APPEND% ,*zalo.me, graph.nhaccuatui.com, spclient.wg.spotify.com, api*.musical.ly, *-hl.snssdk.com
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-surge-rewrite.conf,ADVERTISING,update-interval=21600
