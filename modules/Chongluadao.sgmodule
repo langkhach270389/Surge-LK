@@ -3,7 +3,7 @@
 
 [Rule]
 DOMAIN-SET,https://api.chongluadao.vn/v1/blacklist,ADVERTISING // reject dmhieupc.com for test rule
-DOMAIN-SET,https://api.chongluadao.vn/v1/whitelist,SSID //direct
+DOMAIN-SET,https://api.chongluadao.vn/v1/whitelist,DIRECT //direct
 [MITM]
 hostname=%APPEND% api.chongluadao.vn
 
