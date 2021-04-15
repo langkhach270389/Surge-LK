@@ -1,0 +1,6 @@
+#!name=AutoNextDNS
+#!desc=AutoNextDNS-HomeDNS
+
+[Script]
+AutoDNS = type=event,event-name=network-changed,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/autodns.js
+
