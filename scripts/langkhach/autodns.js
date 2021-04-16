@@ -5,7 +5,6 @@ Surge TF 4.11.0 build 1910
 */
 const sgmodule = "NextDNS-Utra-Low";
 const path = "v1/modules";
-var body = {};
 
 getModuleStatus(sgmodule).then(main);
 
@@ -29,7 +28,7 @@ function main(enable) {
 
 function getModuleStatus(sgmodule) {
   return new Promise(resolve => {
-    $httpAPI("GET", path, body, resp => {
+    $httpAPI("GET", path, null, resp => {
       let enabled = resp.enabled;
       resolve(enabled.includes(sgmodule));
     });
@@ -37,6 +36,7 @@ function getModuleStatus(sgmodule) {
 }
 
 function enableModule(enable) {
+  var body = {};
   body[sgmodule] = enable;
   $httpAPI("POST", path, body, () => $done());
 }
