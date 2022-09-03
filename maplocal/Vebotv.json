@@ -1,0 +1,21 @@
+{
+  "status": 1,
+  "data": {
+    "detail": true,
+    "profile_url": "https://api.fbdata.xyz/web/profile",
+    "app": {
+      "can_skip_update": false,
+      "app_url": "https://vebotv.app/",
+      "contact": "Không có ads ok",
+      "share_content": "Xem bóng đá",
+      "version": 1,
+      "notice_update": false,
+      "share_url": "https://vebotv.app/"
+    },
+    "forgot_url": "https://api.fbdata.xyz/web/profile/forgot",
+    "float_icons": [
+
+    ],
+    "highlights": true
+  }
+}
