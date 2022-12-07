@@ -1,0 +1,8 @@
+#!name=Unlock Fimo
+#!desc=Fimo
+
+[Script]
+Fimo = type=http-response,pattern=^https:\/\/server\.yoyiapp\.com\/fimo-user\/user$,requires-body=1,max-size=0,script-path=scripts/langkhach/Fimo.js
+
+[MITM]
+hostname = %APPEND% server.yoyiapp.com

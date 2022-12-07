@@ -1,0 +1,10 @@
+#!name=Any TUN Only
+#!desc=Enable TUN Only mode to force domain name requests at port 80 to process and turn on and decrypt TCP traffic using the HTTP engine.
+#!system=ios
+
+[General]
+compatibility-mode = 3
+force-http-engine-hosts = %APPEND% -<ip-address>, *
+
+[MITM]
+tcp-connection = true

@@ -1,0 +1,8 @@
+#!name=Unlock Craft Pro
+#!desc=Craft
+
+[MITM]
+hostname = %APPEND% api.craft.do
+
+[Script]
+Craft = type=http-response,pattern=^https://api\.craft\.do/auth/v\d/profile$,requires-body=1,max-size=0,script-path=scripts/langkhach/craft.js

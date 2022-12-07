@@ -1,0 +1,8 @@
+#!name=Unlock Wink
+#!desc=Wink
+
+[Script]
+wink = type=http-response,pattern=^https:\/\/api-sub\.meitu\.com\/v\d\/user\/vip_info_by_group,requires-body=1,max-size=0,script-path=scripts/langkhach/wink.js
+
+[MITM]
+hostname = %APPEND% api-sub.meitu.com

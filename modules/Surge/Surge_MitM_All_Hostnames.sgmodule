@@ -1,0 +1,14 @@
+#!name=Any MitM All Hostnames
+#!desc=Perform MitM on all hostnames
+
+[General]
+loglevel = debug
+
+[Header Rewrite]
+#Anticache
+.+ header-del if-modified-since
+.+ header-del if-none-match
+.+ header-del X-RevenueCat-ETag
+.+ header-del x-revenuecat-etag
+[MITM]
+hostname = -*.apple.com, -*.icloud*.com, -*.mzstatic.com, -*.crashlytics.com, -*.facebook.com, -*.instagram.com, *a, *b, *c, *d, *e, *f, *g, *h, *i, *j, *k, *l, *m, *n, *o, *p, *q, *r, *s, *t, *u, *v, *w, *x, *y, *z

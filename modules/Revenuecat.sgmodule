@@ -1,0 +1,17 @@
+#!name=Unlock Any Revenuecat
+#!desc=(1. Trial 2. open Setting > AppleID > Supscriptions > Cancer. 3 Restore Purchase) Unlock Vsco, Noto, pillow, Spark mail, 1Blocker, darkroom, Planny, Widgetsmith, Grow, Anybox, Scanner Pro, iPTV+, Happy: Days, Forza Football, Not Boring,..
+
+[MITM]
+hostname = %APPEND% api.revenuecat.com, firebaseremoteconfig.googleapis.com
+
+[Header Rewrite]
+https:\/\/api\.revenuecat\.com header-del x-revenuecat-etag
+
+^https:\/\/firebaseremoteconfig\.googleapis\.com header-del if-none-match
+[Map Local]
+//^https:\/\/firebaseremoteconfig\.googleapis\.com\/v\d\/projects data="mocks/firebase.json"
+
+[Script]
+Fileball = type=http-response,pattern=^https:\/\/firebaseremoteconfig\.googleapis\.com\/v\d\/projects,requires-body=1,max-size=0,script-path=scripts/langkhach/Fileball.js
+
+Revenuecat = type=http-response,pattern=https:\/\/api\.revenuecat\.com,requires-body=1,max-size=0,script-path=scripts/langkhach/revenuecat.js,script-update-interval=-1

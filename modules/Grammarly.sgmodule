@@ -1,0 +1,6 @@
+#!name=Unlock Grammarly
+#!desc=Grammarly
+[MITM]
+hostname = %APPEND% subscription.grammarly.com
+[Script]
+Grammarly = type=http-response,pattern=^https?:\/\/subscription\.grammarly\.com\/api\/v\d\/subscription$,requires-body=1,max-size=0,script-path=scripts/langkhach/grammarly.js,script-update-interval=-1

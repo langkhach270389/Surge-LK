@@ -1,0 +1,8 @@
+#!name=Unlock Truecaller
+#!desc=Truecaller Gold Subscription
+
+[MITM]
+hostname = %APPEND% premium*.truecaller.com
+
+[Script]
+Truecaller = type=http-response,pattern=^https://premium-(.+)\.truecaller\.com/v\d/(subscriptions|products\/apple),requires-body=1,max-size=0,script-path=scripts/langkhach/truecaller.js

@@ -1,0 +1,7 @@
+#!name=Unlock Adguard
+#!desc=Adguard
+[MITM]
+hostname = %APPEND% *api.adguard.*
+[Script]
+Adguard = type=http-response,pattern=^https:\/\/mobile-api\.adguard\.(org|com)\/api\/.+\/ios_validate_receipt,requires-body=1,max-size=0,script-path=scripts/langkhach/adguard.js,script-update-interval=-1
+

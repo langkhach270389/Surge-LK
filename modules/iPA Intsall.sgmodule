@@ -1,0 +1,8 @@
+#!name=iOS14 IPA Application installation
+#!desc=This module can solve the problem that iOS 14 or IPadOS 14 cannot install IPA on the mobile terminal. Note: Shu+ shortcut or Jsbox auxiliary installation is required.
+
+[Script]
+IPA Application installation = type=http-request,pattern=^https:\/\/nobyda/(install|download)(\/jsbox)?$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/IPA_install.js
+
+[MITM]
+hostname = %APPEND% nobyda

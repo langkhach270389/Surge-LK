@@ -1,0 +1,10 @@
+[Replica]
+hide-apple-request = 0
+hide-crashlytics-request = 1
+hide-crash-reporter-request = 1
+hide-udp = 1
+use-keyword-filter = 1
+keyword-filter-type = blacklist
+keyword-filter = measurement, logging, icloud, 127.0, ocsp
+keyword-filter-disabled = apple, mzstatic
+

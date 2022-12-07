@@ -1,0 +1,9 @@
+[WireGuard Cloudflare]
+private-key = cNA9g37tdvlUHG/RjexyvCOFIn1OtwX2zeFrzpF4GRA=
+self-ip = 172.16.0.2
+self-ip-v6 = 2606:4700:110:8023:6e46:fd03:a3b7:8be1
+prefer-ipv6 = true
+dns-server = 172.64.36.1, 172.64.36.2, 2a06:98c1:54::2:d4a3
+mtu = 1380
+peer = (public-key = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, allowed-ips = "0.0.0.0/0, ::0/0", endpoint = 162.159.193.10:2408, keepalive = 25)
+

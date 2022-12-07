@@ -1,0 +1,6 @@
+#!name=Unlock Any Buy Apple
+#!desc=(1. Trial 2. open Setting > AppleID > Supscriptions > Cancer. 3 Restore Purchase) Unlock Beer, in short, fabulous, ShadowLink, Sticker Maker, Relens, ..
+[MITM]
+hostname = %APPEND% buy.itunes.apple.com
+[Script]
+Buy = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=scripts/langkhach/verify_receipt.js,script-update-interval=-1

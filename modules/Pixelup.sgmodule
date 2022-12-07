@@ -1,0 +1,11 @@
+#!name=Unlock Pixelup
+#!desc=Pixelup
+
+[Script]
+Pixelup = type=http-request,pattern=^https:\/\/receipt-verifier\.cdwapi\.com\/receipt$,requires-body=0,script-path=scripts/langkhach/Pixelup.js
+
+[URL Rewrite]
+^https:\/\/gateway\.cerebroapi\.com\/log\/ios$ - reject
+
+[MITM]
+hostname = %APPEND% *.cdwapi.com, *.cerebroapi.com

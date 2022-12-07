@@ -1,0 +1,10 @@
+#!name=Unlock Mix 
+#!desc=Unlock Full Membership 
+
+[Script]
+camera360-Mix = requires-body=1,script-path=scripts/langkhach/mix.js,type=http-response,pattern= ^https:\/\/bmall\.camera360\.com\/api\/mix\/recovery$
+
+[MITM]
+hostname = %APPEND% bmall.camera360.com
+
+//https://langkhach270389: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@raw.githubusercontent.com/langkhach270389/Surge-LK-Private/main/

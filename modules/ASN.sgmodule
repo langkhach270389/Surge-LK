@@ -1,0 +1,538 @@
+#!name=ASN Việt Nam
+#!desc=ASN IP DIRECT
+
+[Rule]
+#ASN VIETNAM
+IP-ASN,45899,DIRECT,no-resolve //	VNPT Corp	7,722,496
+IP-ASN,7552,DIRECT,no-resolve //	Viettel Group	5,450,240
+IP-ASN,18403,DIRECT,no-resolve //	FPT Telecom Company	1,423,872
+IP-ASN,24086,DIRECT,no-resolve //	Viettel Corporation	512,768
+IP-ASN,45543,DIRECT,no-resolve //	SaiGon Tourist cable Televition Company	196,608
+IP-ASN,135905,DIRECT,no-resolve //	VIETNAM POSTS AND TELECOMMUNICATIONS GROUP	135,168
+IP-ASN,7602,DIRECT,no-resolve //	Saigon Postel Corporation	124,928
+IP-ASN,45903,DIRECT,no-resolve //	CMC Telecom Infrastructure Company	87,040
+IP-ASN,24173,DIRECT,no-resolve //	Netnam Company	63,744
+IP-ASN,131429,DIRECT,no-resolve //	MOBIFONE Corporation	49,408
+IP-ASN,38731,DIRECT,no-resolve //	Vietel - CHT Compamy Ltd	41,728
+IP-ASN,38244,DIRECT,no-resolve //	VNG Corporation	36,864
+IP-ASN,38735,DIRECT,no-resolve //	Global Data Service Joint Stock Company	32,768
+IP-ASN,24085,DIRECT,no-resolve //	Quang Trung Software City Development Company	26,112
+IP-ASN,7643,DIRECT,no-resolve //	Vietnam Posts and Telecommunications (VNPT)	20,480
+IP-ASN,131392,DIRECT,no-resolve //	GMO-Z.com Runsystem Joint Stock Company	19,456
+IP-ASN,38726,DIRECT,no-resolve //	VTC DIGICOM	19,456
+IP-ASN,24088,DIRECT,no-resolve //	Hanoi Telecom Joint Stock Company - HCMC Branch	18,688
+IP-ASN,24176,DIRECT,no-resolve //	Branch of Netnam Company in Ho Chi Minh City	18,432
+IP-ASN,45538,DIRECT,no-resolve //	ODS Joint Stock Company	14,848
+IP-ASN,45544,DIRECT,no-resolve //	SUPERDATA-VN	14,336
+IP-ASN,135967,DIRECT,no-resolve //	Bach Kim Network solutions Join stock company	14,080
+IP-ASN,135918,DIRECT,no-resolve //	VIET DIGITAL TECHNOLOGY LIABILITY COMPANY	12,800
+IP-ASN,38248,DIRECT,no-resolve //	VTC-VN	12,288
+IP-ASN,63737,DIRECT,no-resolve //	VIETSERVER SERVICES TECHNOLOGY COMPANY LIMITED	11,776
+IP-ASN,45539,DIRECT,no-resolve //	VTCWLB-VN	10,240
+IP-ASN,135944,DIRECT,no-resolve //	VinhNam Commercial informatics service corporation	10,240
+IP-ASN,38247,DIRECT,no-resolve //	Vietnamobile Telecommunications Joint Stock Company	9,984
+IP-ASN,140822,DIRECT,no-resolve //	ANPHATIDC	9,728
+IP-ASN,38732,DIRECT,no-resolve //	CMC Telecom Infrastructure Company	9,472
+IP-ASN,45896,DIRECT,no-resolve //	Mobifone Global JSC	8,448
+IP-ASN,24175,DIRECT,no-resolve //	National Agency for Scientific and Technological Information	8,192
+IP-ASN,55322,DIRECT,no-resolve //	North Power Company	8,192
+IP-ASN,38733,DIRECT,no-resolve //	CMC Telecom Infrastructure Company	7,424
+IP-ASN,55313,DIRECT,no-resolve //	Hanel Communication JSC	7,168
+IP-ASN,45557,DIRECT,no-resolve //	Vietnam Technology and Telecommunication JSC	7,168
+IP-ASN,131353,DIRECT,no-resolve //	NhanHoa Software company	7,168
+IP-ASN,131386,DIRECT,no-resolve //	Long Van System Solution JSC	7,168
+IP-ASN,45894,DIRECT,no-resolve //	FPT Online JSC	7,168
+IP-ASN,135951,DIRECT,no-resolve //	Webico Company Limited	6,656
+IP-ASN,140766,DIRECT,no-resolve //	FPT Telecom Company	6,144
+IP-ASN,56150,DIRECT,no-resolve //	Viet Solutions Services Trading Company Limited	5,632
+IP-ASN,135987,DIRECT,no-resolve //	Reload Company Limited	5,120
+IP-ASN,140803,DIRECT,no-resolve //	HQDATA	5,120
+IP-ASN,131428,DIRECT,no-resolve //	Rainbow E-Commerce Company Limited	4,608
+IP-ASN,140815,DIRECT,no-resolve //	HTTVSERVER TECHNOLOGY COMPANY LIMITED	4,608
+IP-ASN,131127,DIRECT,no-resolve //	Global Telecom Corp	4,352
+IP-ASN,45542,DIRECT,no-resolve //	VietNam National University Ha Noi	4,096
+IP-ASN,55309,DIRECT,no-resolve //	Minh Tu Telecom Limited Company	4,096
+IP-ASN,63760,DIRECT,no-resolve //	AZDIGI Corporation	4,096
+IP-ASN,140807,DIRECT,no-resolve //	Nguyen Ngoc Thanh Trading Limited Company	4,096
+IP-ASN,63747,DIRECT,no-resolve //	Central Post and Telecommunication (CPT)	3,840
+IP-ASN,140825,DIRECT,no-resolve //	Thien Quang Digital technology joint stock company	3,584
+IP-ASN,63731,DIRECT,no-resolve //	TIEN PHAT TECHNOLOGY CORPORATION	3,584
+IP-ASN,140810,DIRECT,no-resolve //	Megacore Technology Company Limited	3,328
+IP-ASN,135942,DIRECT,no-resolve //	Adsota Corporation	3,072
+IP-ASN,135921,DIRECT,no-resolve //	Maxserver Company Limited	3,072
+IP-ASN,63765,DIRECT,no-resolve //	Ligh technology viet joint stock company	3,072
+IP-ASN,63741,DIRECT,no-resolve //	DCNET TELECOM	3,072
+IP-ASN,131414,DIRECT,no-resolve //	Long Van Soft Solution JSC	3,072
+IP-ASN,131423,DIRECT,no-resolve //	Branch of Long Van System Solution JSC - Hanoi	3,072
+IP-ASN,140812,DIRECT,no-resolve //	22B, Alley 57 Hoa Binh, Group 14, yen Nghia Ward, Ha Dong District, Ha Noi	2,816
+IP-ASN,140832,DIRECT,no-resolve //	Vietnam F Tech., JSC	2,560
+IP-ASN,135932,DIRECT,no-resolve //	Viet Storage Technology Joint Stock Company	2,560
+IP-ASN,135901,DIRECT,no-resolve //	Phuong Dong technology solution company limited	2,560
+IP-ASN,63730,DIRECT,no-resolve //	VNSO TECHNOLOGY COMPANY	2,560
+IP-ASN,131366,DIRECT,no-resolve //	Lanit Technology and Communication Joint Stock Company	2,304
+IP-ASN,63766,DIRECT,no-resolve //	VEGAGAME-VN	2,304
+IP-ASN,45552,DIRECT,no-resolve //	DTS Telecom Company Limited	2,048
+IP-ASN,131410,DIRECT,no-resolve //	Vietnam Television Cable Corporation One Member Company Limited	2,048
+IP-ASN,131367,DIRECT,no-resolve //	Viet Online trading service corporation	2,048
+IP-ASN,24066,DIRECT,no-resolve //	Vietnam Internet Network Information Center	2,048
+IP-ASN,131402,DIRECT,no-resolve //	FPT Software Company limited	2,048
+IP-ASN,56141,DIRECT,no-resolve //	Danang ICT Infrastructure Development Center	2,048
+IP-ASN,23902,DIRECT,no-resolve //	Vietnam Internet network information center (VNNIC)	2,048
+IP-ASN,131388,DIRECT,no-resolve //	VIET NAM HT GROUP JOINT STOCK COMPANY	2,048
+IP-ASN,63761,DIRECT,no-resolve //	Cong ty TNHH Dich vu truc tuyen Maxdata	2,048
+IP-ASN,56149,DIRECT,no-resolve //	Cong ty CP Truyen thong quoc te Incom	2,048
+IP-ASN,38253,DIRECT,no-resolve //	Hanoi Telecom JSC	2,048
+IP-ASN,131418,DIRECT,no-resolve //	Vietnam Esports Development Joint Stock Company	2,048
+IP-ASN,63733,DIRECT,no-resolve //	VIETNAM LEAGUE OF LEGENDS	2,048
+IP-ASN,38738,DIRECT,no-resolve //	L.C.S Company.,ltd	2,048
+IP-ASN,45546,DIRECT,no-resolve //	Gtel Mobile Joint Stock Company	2,048
+IP-ASN,131435,DIRECT,no-resolve //	Vietnam Esports and Entertainment Joint Stock Company	2,048
+IP-ASN,131349,DIRECT,no-resolve //	Digital telecomminication service joint stock	2,048
+IP-ASN,56147,DIRECT,no-resolve //	Creative Communication Vietnam Joint Stock Company	2,048
+IP-ASN,135915,DIRECT,no-resolve //	TLSOFT	2,048
+IP-ASN,56155,DIRECT,no-resolve //	Tuong Minh service private enterprise	2,048
+IP-ASN,131427,DIRECT,no-resolve //	AOHOAVIET-VN	2,048
+IP-ASN,135916,DIRECT,no-resolve //	KIENPHONGITS	1,792
+IP-ASN,135920,DIRECT,no-resolve //	Ehost software company limited	1,792
+IP-ASN,149117,DIRECT,no-resolve //	VTC MOBILE SERVICES JOINT STOCK COMPANY	1,536
+IP-ASN,135983,DIRECT,no-resolve //	Tino Group Joint Stock Company	1,536
+IP-ASN,56146,DIRECT,no-resolve //	Global informatics solution corporation	1,536
+IP-ASN,140775,DIRECT,no-resolve //	GLOBAL INFORMATICS TELECOMMUNICATIONS JOINT STOCK COMPANY	1,536
+IP-ASN,131396,DIRECT,no-resolve //	Rmit International University Vietnam	1,536
+IP-ASN,140770,DIRECT,no-resolve //	Digilife Vietnam Digital Services Company Limited	1,536
+IP-ASN,135923,DIRECT,no-resolve //	SCTV INFRASTRUCTURE BUSINESS INVESMENT COMPANY LIMITED	1,024
+IP-ASN,131126,DIRECT,no-resolve //	Vietnam Airlines Corp	1,024
+IP-ASN,131342,DIRECT,no-resolve //	Vietnam Technological and Commercial Joint-stock Bank - Techcombank	1,024
+IP-ASN,131343,DIRECT,no-resolve //	Vietnam Internationl commercial joint stock bank	1,024
+IP-ASN,131348,DIRECT,no-resolve //	Joint stock Commercial Bank for Foreign Trade of Viet Nam	1,024
+IP-ASN,131351,DIRECT,no-resolve //	Orient commercial joint stock bank	1,024
+IP-ASN,131352,DIRECT,no-resolve //	Vietnam Cybersecurity Emergency Response Teams/Coordination Center	1,024
+IP-ASN,131357,DIRECT,no-resolve //	Duy Tan University	1,024
+IP-ASN,131358,DIRECT,no-resolve //	Telehouse international corporation of vietnam	1,024
+IP-ASN,131360,DIRECT,no-resolve //	NATIONAL PAYMENT CORPORATION OF VIET NAM	1,024
+IP-ASN,131363,DIRECT,no-resolve //	Department of Information Technology - General Department of Taxation	1,024
+IP-ASN,131364,DIRECT,no-resolve //	Military commercial join stock bank	1,024
+IP-ASN,131365,DIRECT,no-resolve //	Department Of Information Technology and Data of Natural Resources and Environment	1,024
+IP-ASN,131368,DIRECT,no-resolve //	Petro Viet Nam Oil Corporation	1,024
+IP-ASN,131371,DIRECT,no-resolve //	BaoMinh securities company	1,024
+IP-ASN,131372,DIRECT,no-resolve //	VIVAS-VN	1,024
+IP-ASN,131373,DIRECT,no-resolve //	Information Center - Ministry of Science and Technology	1,024
+IP-ASN,131374,DIRECT,no-resolve //	Hong Quang Trading Investment Company Limited	1,024
+IP-ASN,131375,DIRECT,no-resolve //	Trung tam Thong tin Bo TT & TT	1,024
+IP-ASN,131378,DIRECT,no-resolve //	Cloud Viet Technology Company Limited	1,024
+IP-ASN,131379,DIRECT,no-resolve //	Ocean Commercial Joint Stock Bank	1,024
+IP-ASN,131380,DIRECT,no-resolve //	Niteco VN	1,024
+IP-ASN,131381,DIRECT,no-resolve //	Customs IT and Statistics Department - General Department of Vietnam Customs	1,024
+IP-ASN,131383,DIRECT,no-resolve //	PVI Holdings	1,024
+IP-ASN,131385,DIRECT,no-resolve //	VTV-VN	1,024
+IP-ASN,131389,DIRECT,no-resolve //	SeABank	1,024
+IP-ASN,131390,DIRECT,no-resolve //	Vietnam E-commerce Development Centre	1,024
+IP-ASN,131391,DIRECT,no-resolve //	Vietnam-Asia Commercial Joint Stock Bank	1,024
+IP-ASN,131397,DIRECT,no-resolve //	Hanoi Medical University	1,024
+IP-ASN,131398,DIRECT,no-resolve //	Lotte Data Communication Company Limited	1,024
+IP-ASN,131401,DIRECT,no-resolve //	Department of Information and Communication of Vinh Phuc	1,024
+IP-ASN,131403,DIRECT,no-resolve //	ICSOFT Joint Stock Company	1,024
+IP-ASN,131404,DIRECT,no-resolve //	Masters Technology Corporation	1,024
+IP-ASN,131407,DIRECT,no-resolve //	Sai Gon CTT	1,024
+IP-ASN,131408,DIRECT,no-resolve //	TPBANK-VN	1,024
+IP-ASN,131411,DIRECT,no-resolve //	VietNamNet	1,024
+IP-ASN,131412,DIRECT,no-resolve //	State Audit Office of Vietnam	1,024
+IP-ASN,131413,DIRECT,no-resolve //	VINGROUP JOINT STOCK COMPANY	1,024
+IP-ASN,131415,DIRECT,no-resolve //	Vietnam Internet network information center (VNNIC)	1,024
+IP-ASN,131417,DIRECT,no-resolve //	Vietnam National Coaland Mineral Industries Holding Corporation Limited	1,024
+IP-ASN,131419,DIRECT,no-resolve //	NATIONAL PAYMENT CORPORATION OF VIET NAM	1,024
+IP-ASN,131421,DIRECT,no-resolve //	Intercom Telecom., JSC	1,024
+IP-ASN,131425,DIRECT,no-resolve //	The gioi di dong jsc	1,024
+IP-ASN,131426,DIRECT,no-resolve //	MISA-VN	1,024
+IP-ASN,131430,DIRECT,no-resolve //	Bao Viet bank	1,024
+IP-ASN,131434,DIRECT,no-resolve //	Scom Technology Join stock company	1,024
+IP-ASN,131436,DIRECT,no-resolve //	Information Technology Center - Vietnam Social Security	1,024
+IP-ASN,131437,DIRECT,no-resolve //	DT Communications company limited	1,024
+IP-ASN,131438,DIRECT,no-resolve //	VIETNAM POST	1,024
+IP-ASN,131439,DIRECT,no-resolve //	VietNam credit information joint stock company	1,024
+IP-ASN,135900,DIRECT,no-resolve //	HaNoi State data center	1,024
+IP-ASN,135902,DIRECT,no-resolve //	Hahalolo Travel Social Network Joint Stock Company	1,024
+IP-ASN,135908,DIRECT,no-resolve //	ECONET VIETNAM CORPORATION	1,024
+IP-ASN,135909,DIRECT,no-resolve //	Information Technology Park - Vietnam National University Ho Chi Minh City	1,024
+IP-ASN,135911,DIRECT,no-resolve //	VietNam maritime commercial joint stock bank	1,024
+IP-ASN,135913,DIRECT,no-resolve //	MB Ages life insurance company limited	1,024
+IP-ASN,135917,DIRECT,no-resolve //	Cong ty TNHH Web Panda	1,024
+IP-ASN,135919,DIRECT,no-resolve //	MB SHINSEI Finance Limited Liability Company	1,024
+IP-ASN,135922,DIRECT,no-resolve //	Clearsky Service Solutions Company Limited	1,024
+IP-ASN,135924,DIRECT,no-resolve //	FWD Vietnam Life Insurance Company Limited	1,024
+IP-ASN,135925,DIRECT,no-resolve //	16 Au Co, Tan Son Nhi Ward, Tan Phu District, Ho Chi Minh city (EVNSPC Building)	1,024
+IP-ASN,135926,DIRECT,no-resolve //	Phu Nhuan Jewelry Joint Stock Company	1,024
+IP-ASN,135927,DIRECT,no-resolve //	Phu Quoc Petroleum Operating Company	1,024
+IP-ASN,135929,DIRECT,no-resolve //	International Education Corporation	1,024
+IP-ASN,135933,DIRECT,no-resolve //	Bac A Commercial Joint Stock Bank	1,024
+IP-ASN,135934,DIRECT,no-resolve //	ICT Center - Dong Thap Department of Information and Communications	1,024
+IP-ASN,135936,DIRECT,no-resolve //	LABO A&B Joint Stock Company	1,024
+IP-ASN,135938,DIRECT,no-resolve //	Home Credit Viet nam Finance Company Limited	1,024
+IP-ASN,135939,DIRECT,no-resolve //	VNPT Electronic Payment Joint Stock Company	1,024
+IP-ASN,135940,DIRECT,no-resolve //	Nice Tech Center Vietnam Limited Company	1,024
+IP-ASN,135943,DIRECT,no-resolve //	Truong Minh Thinh Online Trading And Service Co., Ltd	1,024
+IP-ASN,135945,DIRECT,no-resolve //	VTC Online Joint Stock Company	1,024
+IP-ASN,135946,DIRECT,no-resolve //	Long An Department of Information and Communications	1,024
+IP-ASN,135949,DIRECT,no-resolve //	Cloudfone Viet Nam Joint Stock Company	1,024
+IP-ASN,135952,DIRECT,no-resolve //	VPS Securities Joint Stock Company	1,024
+IP-ASN,135953,DIRECT,no-resolve //	Vietnam Online Network Solution Joint Stock Compnay	1,024
+IP-ASN,135955,DIRECT,no-resolve //	Data integration and digital transformation center of Lam Dong province	1,024
+IP-ASN,135956,DIRECT,no-resolve //	The Authority of Information Technology - Ministry of Health	1,024
+IP-ASN,135958,DIRECT,no-resolve //	Teko Vietnam Technology Joint Stock Company	1,024
+IP-ASN,135959,DIRECT,no-resolve //	Onebim Vietnam Limited Company	1,024
+IP-ASN,135961,DIRECT,no-resolve //	Viet Nam Data Online Joint Stock Company	1,024
+IP-ASN,135963,DIRECT,no-resolve //	Information Center - Ministry of Labour - Invalids and Social Affairs	1,024
+IP-ASN,135964,DIRECT,no-resolve //	RVC Rong Viet Trade Service Telecom Company Limited	1,024
+IP-ASN,140799,DIRECT,no-resolve //	VIET NAM CLOUD TECHNOLOGY JOINT STOCK COMPANY	1,024
+IP-ASN,140827,DIRECT,no-resolve //	AZ VIET NAM COMMUNICATIONS TECHNOLOGY COMPANY LIMITED	1,024
+IP-ASN,23962,DIRECT,no-resolve //	Vietnam Internet Network Information Center	1,024
+IP-ASN,24089,DIRECT,no-resolve //	Vietnam Internet Network Information Center	1,024
+IP-ASN,38249,DIRECT,no-resolve //	KIS Viet Nam Securities Corporations	1,024
+IP-ASN,38727,DIRECT,no-resolve //	Ha Noi University of Technology	1,024
+IP-ASN,38730,DIRECT,no-resolve //	VIETINBANK-VN	1,024
+IP-ASN,38736,DIRECT,no-resolve //	Vietnam Internet network information center (VNNIC)	1,024
+IP-ASN,38737,DIRECT,no-resolve //	Vietnam Internet network information center (VNNIC)	1,024
+IP-ASN,45541,DIRECT,no-resolve //	Information Technology Center - Joint Stock Commercial Bank for Investment and Development of Vietnam	1,024
+IP-ASN,55305,DIRECT,no-resolve //	ODS Joint Stock Company	1,024
+IP-ASN,55306,DIRECT,no-resolve //	Vietnam bank for Agriculture anh Rural Development	1,024
+IP-ASN,55308,DIRECT,no-resolve //	Informatics Center-Ministry of Planning and Investment	1,024
+IP-ASN,55315,DIRECT,no-resolve //	SSI Securities Incorporation	1,024
+IP-ASN,55320,DIRECT,no-resolve //	KNODE TECHNOLOGY COMPANY LIMITED	1,024
+IP-ASN,56148,DIRECT,no-resolve //	Pertrovietnam finance joint stock corporation	1,024
+IP-ASN,56158,DIRECT,no-resolve //	Digital world data online company	1,024
+IP-ASN,56159,DIRECT,no-resolve //	Sai Gon Join stock commercial Bank	1,024
+IP-ASN,63732,DIRECT,no-resolve //	FIM PLUS DIGITAL JOINT STOCK COMPANY	1,024
+IP-ASN,63734,DIRECT,no-resolve //	365 Online technology joint stock company	1,024
+IP-ASN,63735,DIRECT,no-resolve //	Hoatoc company limited	1,024
+IP-ASN,63739,DIRECT,no-resolve //	VIETPN Company Limited	1,024
+IP-ASN,63740,DIRECT,no-resolve //	TOCDOSOVN-VN	1,024
+IP-ASN,63742,DIRECT,no-resolve //	BIDV Securities joint stock company	1,024
+IP-ASN,63744,DIRECT,no-resolve //	DAINAM Securities Company	1,024
+IP-ASN,63746,DIRECT,no-resolve //	Institute of Information Technology (IOIT)	1,024
+IP-ASN,63748,DIRECT,no-resolve //	Cuc An Toan Thong Tin- Bo Thong tin va Truyen thong	1,024
+IP-ASN,63749,DIRECT,no-resolve //	Luxoft VietNam Company LTD	1,024
+IP-ASN,63751,DIRECT,no-resolve //	Vietcombank securities Company limited	1,024
+IP-ASN,63752,DIRECT,no-resolve //	Hoa Binh Department of Information and Communications	1,024
+IP-ASN,63754,DIRECT,no-resolve //	VMG MEDIA JOINT STOCK COMPANY	1,024
+IP-ASN,63755,DIRECT,no-resolve //	VietNam - Russia joint venture bank	1,024
+IP-ASN,63757,DIRECT,no-resolve //	Pacific Technology Development and Communication joint stock company	1,024
+IP-ASN,63758,DIRECT,no-resolve //	VETC Corporation	1,024
+IP-ASN,63759,DIRECT,no-resolve //	TaDu Joint Stock Company	1,024
+IP-ASN,63762,DIRECT,no-resolve //	VietNam Booking corporation	1,024
+IP-ASN,63764,DIRECT,no-resolve //	INCOM SAI GON JOINT STOCK COMPANY	1,024
+IP-ASN,63767,DIRECT,no-resolve //	GCAFE	1,024
+IP-ASN,63768,DIRECT,no-resolve //	Thien Binh Software Service Company Limited	1,024
+IP-ASN,63769,DIRECT,no-resolve //	Information and Communication Technology Center of Bac Kan Province	1,024
+IP-ASN,56153,DIRECT,no-resolve //	Digital Storage Company Limited	768
+IP-ASN,55319,DIRECT,no-resolve //	VietNam Prosperity Joint Stock Commercial Bank	768
+IP-ASN,131405,DIRECT,no-resolve //	Saigon Newport	768
+IP-ASN,63743,DIRECT,no-resolve //	VietNam payment solution joint stock company	768
+IP-ASN,63756,DIRECT,no-resolve //	VSTV-VN	768
+IP-ASN,23999,DIRECT,no-resolve //	Vietnam News Agency	768
+IP-ASN,135957,DIRECT,no-resolve //	Thua Thien Hue Electronic Data and Digital Information Center	768
+IP-ASN,149077,DIRECT,no-resolve //	Yen Viet Tourist Company Limited	512
+IP-ASN,135906,DIRECT,no-resolve //	BOOKING247 COMPANY LIMITED	512
+IP-ASN,38245,DIRECT,no-resolve //	VIETBRANDS COMPANY LIMITED	512
+IP-ASN,140786,DIRECT,no-resolve //	Department of Information and Communications of Thai Binh Province	512
+IP-ASN,135904,DIRECT,no-resolve //	VINID PAY JOINT STOCK COMPANY	512
+IP-ASN,149079,DIRECT,no-resolve //	CUONG KHANG INFORMATICS COMPANY LIMITED	512
+IP-ASN,131345,DIRECT,no-resolve //	KienLong commercial joint stock bank	512
+IP-ASN,140761,DIRECT,no-resolve //	ALLIEX VIETNAM JOINT STOCK COMPANY	512
+IP-ASN,140804,DIRECT,no-resolve //	JOBKEY JOINT STOCK COMPANY	512
+IP-ASN,140762,DIRECT,no-resolve //	Vinh Railway Signalling - Telecom Joint Stock Company	512
+IP-ASN,149074,DIRECT,no-resolve //	University of Medicine and Pharmacy at Ho Chi Minh City	512
+IP-ASN,135912,DIRECT,no-resolve //	VNETWORK Joint Stock Company	512
+IP-ASN,149076,DIRECT,no-resolve //	Cloud Computing Server Solutions Co., Ltd	512
+IP-ASN,131350,DIRECT,no-resolve //	Dak Nong Department of Information and Communications	512
+IP-ASN,131130,DIRECT,no-resolve //	MB securities joint stock company	512
+IP-ASN,135973,DIRECT,no-resolve //	Bamboo Airways Company Limited	512
+IP-ASN,140751,DIRECT,no-resolve //	Information Technology and Communication Center of Binh Thuan Department of Information and Communications	512
+IP-ASN,149123,DIRECT,no-resolve //	VU GIA TECHNOLOGY INVESTMENT JOINT STOCK COMPANY	512
+IP-ASN,135977,DIRECT,no-resolve //	Vietnam BDA technology and communication joint stock company	512
+IP-ASN,135978,DIRECT,no-resolve //	Hanoi University of Industry	512
+IP-ASN,149124,DIRECT,no-resolve //	THANH PHAT TECHNOLOGY AND CONSTRUCTION LIMITED COMPANY	512
+IP-ASN,135980,DIRECT,no-resolve //	Information and Communication Technology Center of Quang Ninh	512
+IP-ASN,135981,DIRECT,no-resolve //	VisualViet Company Limited	512
+IP-ASN,135982,DIRECT,no-resolve //	Hoi An South Development Ltd	512
+IP-ASN,135972,DIRECT,no-resolve //	Quang Nam Department of Information and Communications	512
+IP-ASN,140768,DIRECT,no-resolve //	Binh Dinh Department of Information and Communications	512
+IP-ASN,149062,DIRECT,no-resolve //	TECHNOLOGY SOLUTION DATA ONLINE COMPANY LIMITED	512
+IP-ASN,135986,DIRECT,no-resolve //	Turbo Technology Solution Joint Stock Company	512
+IP-ASN,135971,DIRECT,no-resolve //	PetroVietNam Securities Joint Stock Company	512
+IP-ASN,135988,DIRECT,no-resolve //	Sun Group Corporation	512
+IP-ASN,135989,DIRECT,no-resolve //	Tay Ninh Department of Information and Communications	512
+IP-ASN,135991,DIRECT,no-resolve //	Green Network Solutions LTD.	512
+IP-ASN,149063,DIRECT,no-resolve //	Information center - Ministry of Construction	512
+IP-ASN,140796,DIRECT,no-resolve //	SBDTELECOM	512
+IP-ASN,135994,DIRECT,no-resolve //	IDC Online Technology and Solutions Corporation	512
+IP-ASN,140769,DIRECT,no-resolve //	INFORMATICS SOLUTION COMPANY LIMITED	512
+IP-ASN,135935,DIRECT,no-resolve //	Binh Minh Software Service Company Limited	512
+IP-ASN,135997,DIRECT,no-resolve //	EVN Finance Joint Stock Company	512
+IP-ASN,135998,DIRECT,no-resolve //	International Distribution Corporation	512
+IP-ASN,140781,DIRECT,no-resolve //	VIET HOSTING COMPANY LIMITED	512
+IP-ASN,131347,DIRECT,no-resolve //	Shinhan Viet Nam Bank Limited	512
+IP-ASN,140739,DIRECT,no-resolve //	USDC TECHNOLOGY JSC	512
+IP-ASN,140740,DIRECT,no-resolve //	HA CUONG TRADING INVESTMENT COMPANY LIMITED	512
+IP-ASN,135969,DIRECT,no-resolve //	Sen Do Technology Joint Stock Company	512
+IP-ASN,140742,DIRECT,no-resolve //	Asia Soft Co., Ltd	512
+IP-ASN,140801,DIRECT,no-resolve //	HARAVAN TECHNOLOGY CORPORATION	512
+IP-ASN,140744,DIRECT,no-resolve //	Hanoi Technology and Equipment Joint Stock Company	512
+IP-ASN,140745,DIRECT,no-resolve //	VINTEK VIET NAM TECHNOLOGY TELECOM CO.,LTD	512
+IP-ASN,140746,DIRECT,no-resolve //	MCT Technology Solution Joint Stock Company	512
+IP-ASN,63753,DIRECT,no-resolve //	Viet Nam Lottery One Member Company Limited	512
+IP-ASN,140748,DIRECT,no-resolve //	Vinh Long Department of Information and Communications	512
+IP-ASN,140750,DIRECT,no-resolve //	Network and Services Development Support Center - Viet Nam Telecommunications Authority	512
+IP-ASN,140787,DIRECT,no-resolve //	LAM A ARCHITECTURE CONSTRUCTION COMPANY LIMITED	512
+IP-ASN,38251,DIRECT,no-resolve //	VNDirect Securities Corporation	512
+IP-ASN,38252,DIRECT,no-resolve //	CAPGEMINI VIETNAM CO., LTD	512
+IP-ASN,149082,DIRECT,no-resolve //	NGOC MINH TECHNOLOGY JOINT STOCK COMPANY	512
+IP-ASN,140809,DIRECT,no-resolve //	MINISTRY OF HOME AFFAIRS OF THE SOCIALIST REPUBLIC OF VIETNAM	512
+IP-ASN,63738,DIRECT,no-resolve //	GLTEC-VN	512
+IP-ASN,63763,DIRECT,no-resolve //	VCCORP-VN	512
+IP-ASN,149085,DIRECT,no-resolve //	E-DATA TECHNOLOGY SERVICE COMPANY LIMITED	512
+IP-ASN,140811,DIRECT,no-resolve //	VIET NAM INTERACTIVE TELEVISION JOINT STOCK COMPANY	512
+IP-ASN,38734,DIRECT,no-resolve //	ENCAPITAL FINANCIAL TECHNOLOGY JOINT STOCK COMPANY.	512
+IP-ASN,140813,DIRECT,no-resolve //	DIGITAL SOLUTION AND TELECOMMUNICATIONS SERVICE JOINT STOCK COMPANY	512
+IP-ASN,140814,DIRECT,no-resolve //	TECHCITYGROUP	512
+IP-ASN,140757,DIRECT,no-resolve //	FISYS Company Limited	512
+IP-ASN,131409,DIRECT,no-resolve //	ACT Telecomunication Joint Stock Company	512
+IP-ASN,140816,DIRECT,no-resolve //	Internet Khong Trung Company	512
+IP-ASN,140817,DIRECT,no-resolve //	ODS ONLINE DATA SOLUTION JOINT STOCK COMPANY	512
+IP-ASN,149093,DIRECT,no-resolve //	VPS VIET NAM COMPANY LIMITED	512
+IP-ASN,149094,DIRECT,no-resolve //	THM REFRIGERATION TECHNICIANS COMPANY LIMITED	512
+IP-ASN,140818,DIRECT,no-resolve //	D.I.C Viet Nam Technology Joint Stock Company	512
+IP-ASN,45548,DIRECT,no-resolve //	Artex Securities Joint Stock Company	512
+IP-ASN,149096,DIRECT,no-resolve //	INVESTMENT AND DEVELOPMENT OF NATIONAL E-PROCUREMENT SYSTEM COMPANY LIMITED	512
+IP-ASN,140819,DIRECT,no-resolve //	HANA	512
+IP-ASN,149098,DIRECT,no-resolve //	VIETNAM DIGITAL INFRASTRUCTURE JOINT STOCK COMPANY	512
+IP-ASN,45553,DIRECT,no-resolve //	BAO VIET HOLDINGS INFORMATION TECHNOLOGY CENTER BRANCH	512
+IP-ASN,149100,DIRECT,no-resolve //	KS Securities JSC	512
+IP-ASN,149101,DIRECT,no-resolve //	BKCLOUD COMPANY LIMITED	512
+IP-ASN,131387,DIRECT,no-resolve //	Sun Life Vietnam Insurance Company Limited	512
+IP-ASN,149102,DIRECT,no-resolve //	KHANH CHI ICT COMPANY LIMITED	512
+IP-ASN,140789,DIRECT,no-resolve //	DIGITAL TELECOMMUNICATIONS INFRASTRUCTURE JOINT STOCK COMPANY	512
+IP-ASN,140764,DIRECT,no-resolve //	CSD Group Technology JSC.	512
+IP-ASN,131382,DIRECT,no-resolve //	ETRUSTCLOUD Company, Ltd.	512
+IP-ASN,131129,DIRECT,no-resolve //	Hochiminh Stock Exchange	512
+IP-ASN,140791,DIRECT,no-resolve //	BKHOST TECHNOLOGY VIETNAM JOINT STOCK COMPANY	512
+IP-ASN,140823,DIRECT,no-resolve //	Group 7, THieu Khanh Ward, Thanh Hoa City, Thanh Hoa, Viet Nam	512
+IP-ASN,55311,DIRECT,no-resolve //	LienViet Post Joint stock Commercial Bank	512
+IP-ASN,131376,DIRECT,no-resolve //	KB Securities Vietnam Joint Stock Company	512
+IP-ASN,149107,DIRECT,no-resolve //	TRUMVPS COMPANY LIMITED	512
+IP-ASN,55317,DIRECT,no-resolve //	170 Hai Ba Trung, DaKao Ward, District 1, Hochiminh City	512
+IP-ASN,55318,DIRECT,no-resolve //	Asia Commercial Bank	512
+IP-ASN,131344,DIRECT,no-resolve //	TH Food Chain Joint Stock Company	512
+IP-ASN,140824,DIRECT,no-resolve //	VNIDC TECHNOLOGY COMPANY LIMITED	512
+IP-ASN,149109,DIRECT,no-resolve //	GIAO HANG TIET KIEM JOINT STOCK COMPANY	512
+IP-ASN,56144,DIRECT,no-resolve //	AIA Life Insurance Company limited	512
+IP-ASN,140826,DIRECT,no-resolve //	INTER GROUP VIET NAM JOINT STOCK COMPANY	512
+IP-ASN,131362,DIRECT,no-resolve //	HaNoi Stock Exchange	512
+IP-ASN,140765,DIRECT,no-resolve //	VINANET Services Joint Stock Company	512
+IP-ASN,140829,DIRECT,no-resolve //	VMTK . Trading Investment CO., LTD	512
+IP-ASN,140755,DIRECT,no-resolve //	Viet Nam Blue Sea Technology Corporation	512
+IP-ASN,140831,DIRECT,no-resolve //	Data Center of Vietnam National University Ho Chi Minh City	512
+IP-ASN,135947,DIRECT,no-resolve //	Shopee Company Limited	512
+IP-ASN,149118,DIRECT,no-resolve //	3S Viet Nam Technology Joint Stock Company	512
+IP-ASN,140833,DIRECT,no-resolve //	INTERDATA JOINT STOCK COMPANY	512
+IP-ASN,140834,DIRECT,no-resolve //	SAIGON TRAVEL SERVICE TRADING JOINT STOCK COMPANY	512
+IP-ASN,149080,DIRECT,no-resolve //	SHINHAN LIFE VIETNAM INSURANCE CO., LTD	256
+IP-ASN,135990,DIRECT,no-resolve //	Everest Global Joint Stock Company	256
+IP-ASN,24035,DIRECT,no-resolve //	Ministry of Foreign Affairs of Vietnam - MOFA	256
+IP-ASN,55323,DIRECT,no-resolve //	Viet Nam Bank for Industry and Trade Securities JSC	256
+IP-ASN,55324,DIRECT,no-resolve //	Premier Oil Viet Nam Offshore B.V	256
+IP-ASN,131369,DIRECT,no-resolve //	Ministry of Agriculture and Rural Development	256
+IP-ASN,131440,DIRECT,no-resolve //	Nguyen Bao Digital Company Limited	256
+IP-ASN,45900,DIRECT,no-resolve //	Department of Infomatic - The State Bank of Viet Nam	256
+IP-ASN,135962,DIRECT,no-resolve //	AIS Securitites Joint Stock Company	256
+IP-ASN,45901,DIRECT,no-resolve //	Vietnam Export Import Commercial JSC	256
+IP-ASN,131433,DIRECT,no-resolve //	Corporation Technology Development Eposi	256
+IP-ASN,45902,DIRECT,no-resolve //	Hai Phong Securities Company	256
+IP-ASN,56142,DIRECT,no-resolve //	BP Exploration Operating Company	256
+IP-ASN,131122,DIRECT,no-resolve //	Vietnam Internet network information center (VNNIC)	256
+IP-ASN,140806,DIRECT,no-resolve //	PVS TELECOM CO.LTD.,	256
+IP-ASN,131123,DIRECT,no-resolve //	Vietnam Internet network information center (VNNIC)	256
+IP-ASN,135910,DIRECT,no-resolve //	INTELLIGENCE INFORMATION SYSTEM CO, LTD	256
+IP-ASN,135948,DIRECT,no-resolve //	S-Trading Company Limited	256
+IP-ASN,55307,DIRECT,no-resolve //	Asian Pacific Securitis Joint Stock Company	256
+IP-ASN,131354,DIRECT,no-resolve //	Prudential Vietnam Assurance Private limited	256
+IP-ASN,131355,DIRECT,no-resolve //	IGI-VN	256
+IP-ASN,24174,DIRECT,no-resolve //	Dong A Commercial Join Stock Bank	256
+IP-ASN,55310,DIRECT,no-resolve //	KCS VIETNAM COMPANY LIMITED	256
+IP-ASN,63736,DIRECT,no-resolve //	Nam A Commercial Joint Stock Bank	256
+IP-ASN,135974,DIRECT,no-resolve //	National Power Transmission Corporation	256
+IP-ASN,55312,DIRECT,no-resolve //	Golden Dragon Company	256
+IP-ASN,131124,DIRECT,no-resolve //	Vietnam Bank For Social Policies	256
+IP-ASN,131125,DIRECT,no-resolve //	TVSI-VN	256
+IP-ASN,131128,DIRECT,no-resolve //	Onepay Online Service and Commercial Joint Stock Company	256
+IP-ASN,55316,DIRECT,no-resolve //	Saigon - Hanoi Commercial Joint Stock Bank	256
+IP-ASN,213370,DIRECT,no-resolve //	Kreative Multimedia Company Limited	256
+IP-ASN,45551,DIRECT,no-resolve //	HEINEKEN VIETNAM BREWERY LIMITED COMPANY	256
+IP-ASN,131131,DIRECT,no-resolve //	VNNIC-AS-VN	256
+IP-ASN,140760,DIRECT,no-resolve //	INFINITY SOFTWARE CORPORATION	256
+IP-ASN,45554,DIRECT,no-resolve //	Vietnam Internet network information center (VNNIC)	256
+IP-ASN,149099,DIRECT,no-resolve //	HUNG THINH GROUP CORPORATION	256
+IP-ASN,45556,DIRECT,no-resolve //	Scancom Vietnam Ltd	256
+IP-ASN,131394,DIRECT,no-resolve //	Cloudovs Vietnam Technology Joint Stock Company	256
+IP-ASN,149120,DIRECT,no-resolve //	BLUE TECHNOLOGY AND INVESTMENT COMPANY LIMITED	256
+IP-ASN,135985,DIRECT,no-resolve //	BCALL Viet Nam Company Limited	0
+IP-ASN,135992,DIRECT,no-resolve //	Vietnam Directorate of Market Surveillance	0
+IP-ASN,135993,DIRECT,no-resolve //	IPTP Networks Company Limited	0
+IP-ASN,135995,DIRECT,no-resolve //	TLINKVN Technology Connection Joint Stock Company	0
+IP-ASN,135996,DIRECT,no-resolve //	Be Group Joint Stock Company	0
+IP-ASN,135999,DIRECT,no-resolve //	ITCPLUS Vietnam Joint Stock Company	0
+IP-ASN,140737,DIRECT,no-resolve //	Viva social network Joint Stock Company	0
+IP-ASN,140738,DIRECT,no-resolve //	VESNET JOINT STOCK COMPANY	0
+IP-ASN,140741,DIRECT,no-resolve //	DIGITAL TECHNOLOGY DEVELOPMENT AND INVESTMENT COMPANY LIMITED	0
+IP-ASN,140743,DIRECT,no-resolve //	HUNG CUONG DIGITAL TECHNOLOGY CO.,LTD	0
+IP-ASN,140747,DIRECT,no-resolve //	Dong Nai Department of Information and Communications	0
+IP-ASN,140749,DIRECT,no-resolve //	NSTECH VIET NAM JOINT STOCK COMPANY	0
+IP-ASN,140752,DIRECT,no-resolve //	Kien Phong Trading Service Telecommunication Company Limited	0
+IP-ASN,140753,DIRECT,no-resolve //	Representative Office in Hanoi of Vinahost Company Limited	0
+IP-ASN,140754,DIRECT,no-resolve //	SPR Viet Nam Joint Stock Company	0
+IP-ASN,140756,DIRECT,no-resolve //	SAIGON TELECOMMUNICATIONS TECHNOLOGY SOLUTIONS COMPANY	0
+IP-ASN,140758,DIRECT,no-resolve //	Department of Information and Communications of Ca Mau Province	0
+IP-ASN,140759,DIRECT,no-resolve //	Department of Information and Communications of Dak Lak Province	0
+IP-ASN,140763,DIRECT,no-resolve //	ITEXPERT Viet Nam Joint Stock Company	0
+IP-ASN,135970,DIRECT,no-resolve //	EASTERN TRAINING CONSULTANCY AND TAX AGENCY COMPANY LIMITED	0
+IP-ASN,140767,DIRECT,no-resolve //	VINASOFT One Member Limited Company	0
+IP-ASN,140771,DIRECT,no-resolve //	MXGROUP TECHNOLOGY JOINT STOCK COMPANY	0
+IP-ASN,140772,DIRECT,no-resolve //	MEITC CO.,LTD	0
+IP-ASN,140773,DIRECT,no-resolve //	THIEN CO MANUFACTURING TRADING SERVICES JOINT STOCK COMPANY	0
+IP-ASN,140774,DIRECT,no-resolve //	VIET NAM UNIFIED COMMUNICATIONS CORPORATION	0
+IP-ASN,135968,DIRECT,no-resolve //	Early Start Joint Stock Company	0
+IP-ASN,140776,DIRECT,no-resolve //	247 SCRAP TRADE JOINT STOCK COMPANY	0
+IP-ASN,140777,DIRECT,no-resolve //	VNCOIN247 CORPORATION	0
+IP-ASN,140778,DIRECT,no-resolve //	MINH HIEN SOLUTIONS COMPANY LIMITED	0
+IP-ASN,140779,DIRECT,no-resolve //	VINA-BISON INTERNATIONAL TRADING COMPANY LIMITED	0
+IP-ASN,140780,DIRECT,no-resolve //	THAI AN INFORMATION TECHNOLOGY JOINT STOCK COMPANY	0
+IP-ASN,140782,DIRECT,no-resolve //	424 De La Thanh, O Cho Dua Ward, Dong Da District, Ha Noi City	0
+IP-ASN,140783,DIRECT,no-resolve //	NAMEDIA INTERNATIONAL TECHNOLOGY COMPANY LIMITED	0
+IP-ASN,140784,DIRECT,no-resolve //	VIET DIGITAL SOLUTIONS JOINT STOCK COMPANY	0
+IP-ASN,140785,DIRECT,no-resolve //	VINCOMMERCE GENERAL COMMERCIAL SERVICES JOINT STOCK COMPANY	0
+IP-ASN,140788,DIRECT,no-resolve //	Catiedu Online Training Academy Company Limited	0
+IP-ASN,140790,DIRECT,no-resolve //	CLOUDCORE JOINT STOCK COMPANY	0
+IP-ASN,140792,DIRECT,no-resolve //	IT VILAS VIET NAM JOINT STOCK COMPANY	0
+IP-ASN,140793,DIRECT,no-resolve //	VIET NAM GALAXY DIGITAL TECHNOLOGY COMPANY LIMITED	0
+IP-ASN,140794,DIRECT,no-resolve //	Ha Tinh Department of Information and Communications	0
+IP-ASN,140795,DIRECT,no-resolve //	CYBERLOTUS	0
+IP-ASN,140797,DIRECT,no-resolve //	EXA COMPANY LIMITED	0
+IP-ASN,140798,DIRECT,no-resolve //	BAO NAM HOLDINGS., JSC	0
+IP-ASN,140800,DIRECT,no-resolve //	HANDVINA	0
+IP-ASN,140802,DIRECT,no-resolve //	UNINATION	0
+IP-ASN,135966,DIRECT,no-resolve //	Edutop64 Training Development and Investment Corporation	0
+IP-ASN,140805,DIRECT,no-resolve //	TIN VIET TECHNOLOGY ENGINEERING COMPANY LIMITED	0
+IP-ASN,135965,DIRECT,no-resolve //	VNPT Net Corporation - VNPT Group	0
+IP-ASN,140808,DIRECT,no-resolve //	ONE PLUS INTERNATIONAL CORPORATION	0
+IP-ASN,135954,DIRECT,no-resolve //	Five9 Vietnam Corporation	0
+IP-ASN,140820,DIRECT,no-resolve //	P2702 A3 Ecolife Capitol - 58 To Huu, Me Tri Ward, Nam Tu Liem Distrct, Ha Noi City	0
+IP-ASN,140821,DIRECT,no-resolve //	No 3 Dien Bien Phu, V Ward, Vi Thanh City, Hau Giang	0
+IP-ASN,135950,DIRECT,no-resolve //	Binh Duong E-Government Information Center	0
+IP-ASN,140828,DIRECT,no-resolve //	TEKNIX TECHNOLOGY CORPORATION	0
+IP-ASN,140830,DIRECT,no-resolve //	IDS VIET NAM SOLUTION CORPORATION	0
+IP-ASN,140835,DIRECT,no-resolve //	VAN TRANG PHARMACEUTICAL SUPPLY JOINT STOCK COMPANY	0
+IP-ASN,140836,DIRECT,no-resolve //	PVS SOFTWARE COMPANY LIMITED	0
+IP-ASN,149064,DIRECT,no-resolve //	CLOUDSTACK COMPANY LIMITED	0
+IP-ASN,149065,DIRECT,no-resolve //	MT GROUP COMPANY LIMITED	0
+IP-ASN,149066,DIRECT,no-resolve //	ADNS CO., LTD	0
+IP-ASN,149067,DIRECT,no-resolve //	AZ Clean Trading and Manufacturing Joint Stock Company	0
+IP-ASN,149068,DIRECT,no-resolve //	iNET software one member company limited	0
+IP-ASN,149069,DIRECT,no-resolve //	Information and Communications Technology Company of Vietnam Electricity	0
+IP-ASN,149070,DIRECT,no-resolve //	Da Thanh Service and Trade Company Limited	0
+IP-ASN,149071,DIRECT,no-resolve //	Phuong Tran Co., Ltd	0
+IP-ASN,149072,DIRECT,no-resolve //	VPSTTT Technology Company Limited	0
+IP-ASN,149073,DIRECT,no-resolve //	Hunasoft Technology Solution Consulting Co., Ltd	0
+IP-ASN,149075,DIRECT,no-resolve //	Tan Hoang ViNa Company Limited	0
+IP-ASN,149078,DIRECT,no-resolve //	VPSMMO TECHNOLOGY COMPANY LIMITED	0
+IP-ASN,149081,DIRECT,no-resolve //	GREEN CITY Construction Investment Joint Stock Company	0
+IP-ASN,149083,DIRECT,no-resolve //	VPSCLOUD 24H TECHNOLOGY AND SERVICES COMPANY LIMITED	0
+IP-ASN,149084,DIRECT,no-resolve //	KBG VIET NAM REFRIGERATION ELECTRICAL ENGINEERING TRADING COMPANY LIMITED	0
+IP-ASN,149086,DIRECT,no-resolve //	Digital Era Software Company Limited	0
+IP-ASN,149087,DIRECT,no-resolve //	Hanoi University	0
+IP-ASN,149088,DIRECT,no-resolve //	INET Solution Corporation	0
+IP-ASN,149089,DIRECT,no-resolve //	CLOUDFLY CORPORATION	0
+IP-ASN,149090,DIRECT,no-resolve //	ZOZO SOFTWARE COMPANY LIMITED	0
+IP-ASN,149091,DIRECT,no-resolve //	INET E - Commerce Joint Stock Company	0
+IP-ASN,149092,DIRECT,no-resolve //	Inet academy joint stock company	0
+IP-ASN,149095,DIRECT,no-resolve //	TRINH VIET DIGITAL TECHNOLOGY COMPANY LIMITED	0
+IP-ASN,149097,DIRECT,no-resolve //	FASTLY NETWORK SOLUTION COMPANY LIMITED	0
+IP-ASN,149103,DIRECT,no-resolve //	BACH KIM HNT COMPANY LIMITED	0
+IP-ASN,149104,DIRECT,no-resolve //	UNI JOINT STOCK COMPANY	0
+IP-ASN,149105,DIRECT,no-resolve //	IPTP NETWORKS DA NANG COMPANY LIMITED	0
+IP-ASN,149106,DIRECT,no-resolve //	VIETNAM SERVER SOLUTION COMPANY LIMITED	0
+IP-ASN,149108,DIRECT,no-resolve //	BSS MANAGEMENT CONSULTANT COMPANY LIMITED	0
+IP-ASN,149110,DIRECT,no-resolve //	CLOUD4VN DIGITAL TECHNOLOGY COMPANY LIMITED	0
+IP-ASN,149111,DIRECT,no-resolve //	TEDEV TECHNOLOGICAL DEVELOPMENT COMPANY LIMITED	0
+IP-ASN,149112,DIRECT,no-resolve //	TTK VIET NAM EDUCATION TECHNOLOGY JOINT STOCK COMPANY	0
+IP-ASN,149113,DIRECT,no-resolve //	ODB VIET NAM COMPANY LIMITED	0
+IP-ASN,149114,DIRECT,no-resolve //	NVK TECHNOLOGY AND SERVICES COMPANY LIMITED	0
+IP-ASN,149115,DIRECT,no-resolve //	KINGBOND MIEN TRUNG COMPANY LIMITED	0
+IP-ASN,149116,DIRECT,no-resolve //	National Hospital of Tropical Diseases	0
+IP-ASN,135937,DIRECT,no-resolve //	Next Technology Investment and Development Company Limited	0
+IP-ASN,149119,DIRECT,no-resolve //	DHD TELECOM COMPANY LIMITED	0
+IP-ASN,149121,DIRECT,no-resolve //	Lai Chau Department of Information and Communications	0
+IP-ASN,149122,DIRECT,no-resolve //	3T SYSTEM SOLUTIONS COMPANY LIMITED	0
+IP-ASN,149125,DIRECT,no-resolve //	4S TECHNOLOGY TRADING SERVICES COMPANY LIMITED	0
+IP-ASN,149126,DIRECT,no-resolve //	IMEDIA TECHNOLOGY AND SERVICES JOINT STOCK COMPANY	0
+IP-ASN,149127,DIRECT,no-resolve //	Bac Giang Department of Information and Communications	0
+IP-ASN,149128,DIRECT,no-resolve //	PETROLIMEX GROUP COMMERCIAL JOINT STOCK BANK	0
+IP-ASN,149129,DIRECT,no-resolve //	Vietnam Government Portal	0
+IP-ASN,201389,DIRECT,no-resolve //	Luxoft Professional Romania S.R.L.	0
+IP-ASN,23707,DIRECT,no-resolve //	Internet Systems Consortium	0
+IP-ASN,23899,DIRECT,no-resolve //	Vietnam Internet network information center (VNNIC)	0
+IP-ASN,135931,DIRECT,no-resolve //	Information Center - Committee for ethnic minorities affairs	0
+IP-ASN,24050,DIRECT,no-resolve //	Internet Systems Consortium, Inc.	0
+IP-ASN,135930,DIRECT,no-resolve //	Representative office of Ligh technology viet joint stock company	0
+IP-ASN,135928,DIRECT,no-resolve //	Digital Convergence Technology Solutions Company Limited	0
+IP-ASN,24087,DIRECT,no-resolve //	VIETBRANDS COMPANY LIMITED	0
+IP-ASN,135914,DIRECT,no-resolve //	Quang Trung Software City Development Company	0
+IP-ASN,135907,DIRECT,no-resolve //	VI NA Host Co., ltd	0
+IP-ASN,24177,DIRECT,no-resolve //	iNET Media Company Ltd	0
+IP-ASN,38010,DIRECT,no-resolve //	METRO-nom GmbH	0
+IP-ASN,38246,DIRECT,no-resolve //	CDMA Mobile Phone Center S-Telecom	0
+IP-ASN,135903,DIRECT,no-resolve //	FFC joint stock company	0
+IP-ASN,131346,DIRECT,no-resolve //	FLYCLOUD Company Limited	0
+IP-ASN,38250,DIRECT,no-resolve //	VSERVER EQUIPMENT TECHNOLOGY COMPANY LIMITED	0
+IP-ASN,131441,DIRECT,no-resolve //	May Chu Viet Company Limited	0
+IP-ASN,38725,DIRECT,no-resolve //	Inet software one member company limited	0
+IP-ASN,38729,DIRECT,no-resolve //	Kien Cuong International JSC	0
+IP-ASN,131432,DIRECT,no-resolve //	Cyber Link Service Trading Corporation	0
+IP-ASN,131424,DIRECT,no-resolve //	Online Solution Company Limited	0
+IP-ASN,131422,DIRECT,no-resolve //	Emobi games jsc	0
+IP-ASN,131420,DIRECT,no-resolve //	Truong Quoc te da cap Anh - HaNoi (BIS HANOI)	0
+IP-ASN,38739,DIRECT,no-resolve //	Vietnam Internet network information center (VNNIC)	0
+IP-ASN,131416,DIRECT,no-resolve //	Cloudone Technology Company Limited	0
+IP-ASN,131406,DIRECT,no-resolve //	CTC Media Technology Apply Joint Stock Company	0
+IP-ASN,131400,DIRECT,no-resolve //	Global Data Joint Stock Company	0
+IP-ASN,45545,DIRECT,no-resolve //	Sai Gon Telecommunication and Technology Corp	0
+IP-ASN,131399,DIRECT,no-resolve //	AI-Solutions Company Limited	0
+IP-ASN,45547,DIRECT,no-resolve //	SPT Telecommunications Service Center	0
+IP-ASN,45549,DIRECT,no-resolve //	Hiep Nhat Company Limited	0
+IP-ASN,45550,DIRECT,no-resolve //	NGT-AS-VN	0
+IP-ASN,131395,DIRECT,no-resolve //	Van phong dieu phoi Chuong trinh muc tieu quoc gia	0
+IP-ASN,45555,DIRECT,no-resolve //	Capital Securities Company	0
+IP-ASN,131393,DIRECT,no-resolve //	Minh Phat Telecomunication service Company Limited	0
+IP-ASN,45895,DIRECT,no-resolve //	Mobifone Global JSC	0
+IP-ASN,45897,DIRECT,no-resolve //	Mobifone Global JSC	0
+IP-ASN,45898,DIRECT,no-resolve //	VNPT Corp	0
+IP-ASN,131384,DIRECT,no-resolve //	Viet Solutions Services Trading Company Limited	0
+IP-ASN,63745,DIRECT,no-resolve //	NTT VietNam Communication Company Limited	0
+IP-ASN,131377,DIRECT,no-resolve //	DIGIPOWER CO., LTD	0
+IP-ASN,55314,DIRECT,no-resolve //	NEWLIFE COMPANY	0
+IP-ASN,55321,DIRECT,no-resolve //	Saigontourist securities corporation	0
+IP-ASN,131370,DIRECT,no-resolve //	NETNAM Company	0
+IP-ASN,56143,DIRECT,no-resolve //	VDATA-VN	0
+IP-ASN,56145,DIRECT,no-resolve //	Thanh Nien Net Telecom JSC	0
+IP-ASN,131361,DIRECT,no-resolve //	GSS Investment Corporation	0
+IP-ASN,131359,DIRECT,no-resolve //	ACB Securities Co. Ltd	0
+IP-ASN,131356,DIRECT,no-resolve //	VERMOS COMPANY LIMITED	0
+IP-ASN,56151,DIRECT,no-resolve //	DigiStar Company Limited	0
+IP-ASN,56152,DIRECT,no-resolve //	BStar Joint Stock Company	0
+IP-ASN,56154,DIRECT,no-resolve //	THEGIOISO-VN	0
+IP-ASN,56156,DIRECT,no-resolve //	Vietnam Internet Network Information Center	0
+IP-ASN,56157,DIRECT,no-resolve //	One Vision Investment Trading Service Corporation	0
+IP-ASN,63750,DIRECT,no-resolve //	18 Nguyen Du, Hai Ba Trung, Hanoi	0
+IP-ASN,56160,DIRECT,no-resolve //	VIETNIX Solution and Technology Joint Stock Company	0
+IP-ASN,135975,DIRECT,no-resolve //	Sea Gem Company Limited	0
+IP-ASN,135976,DIRECT,no-resolve //	CLO Technology Limited Company	0
+IP-ASN,135979,DIRECT,no-resolve //	QI TECHNOLOGIES CORPORATION	0
+IP-ASN,135984,DIRECT,no-resolve //	Tinomail Company Limited	0

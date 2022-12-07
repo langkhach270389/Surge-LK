@@ -1,0 +1,6 @@
+#!name=Unlock Mate
+#!desc=Mate
+[MITM]
+hostname = %APPEND% sync.matetranslate.com
+[Script]
+Mate = type=http-response,pattern=^https:\/\/sync\.matetranslate\.com\/subscription,requires-body=1,max-size=0,script-path=scripts/langkhach/mate.js

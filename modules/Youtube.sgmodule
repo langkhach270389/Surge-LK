@@ -1,0 +1,17 @@
+#!name=Unlock Youtube 
+#!desc=Youtube
+# IOS >= 15
+# Delete advertisements in waterfall streams, videos, searches andShorts，
+# Delete video ads in Shorts
+# Delete the bottom upload button
+# There will be omissions in advertising information, and advertisements may appear occasionally.
+# inspired by @Choler & @DivineEngine & @app2smile
+
+[Script]
+youtube = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide),requires-body=1,binary-body-mode=1,max-size=3145728,script-path=https://raw.fastgit.org/Maasea/sgmodule/master/Script/Youtube/youtube.js
+
+[Map Local]
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad data="https://raw.fastgit.org/Maasea/sgmodule/master/Script/Youtube/tinygif.gif"
+
+[MITM]
+hostname = %APPEND% *.googlevideo.com, youtubei.googleapis.com

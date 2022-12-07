@@ -1,0 +1,8 @@
+#!name=Unlock FacePlay
+#!desc=FacePlay
+
+[Script]
+FacePlay = type=http-response,pattern=^https:\/\/api\.faceplay\.cc\/users\/(info|account),requires-body=1,max-size=0,debug=1,script-path=scripts/langkhach/FacePlay.js
+
+[MITM]
+hostname = %APPEND% api.faceplay.cc

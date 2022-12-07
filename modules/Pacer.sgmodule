@@ -1,0 +1,6 @@
+#!name=Unlock Pacer
+#!desc=Pacer Plus
+[MITM]
+hostname = %APPEND% api.pacer.cc
+[Script]
+Pacer = type=http-response,pattern=^https:\/\/api\.pacer\.cc\/pacer\/ios\/api\/.+\/accounts\/.+\/subscriptions$,requires-body=1,max-size=0,script-path=scripts/langkhach/Pacer.js

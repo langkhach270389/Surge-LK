@@ -1,0 +1,8 @@
+#!name=Unlock Notability
+#!desc=Notability
+
+[Script]
+Notability = type=http-response,pattern=^https:\/\/notability\.com\/subscriptions$,requires-body=1,max-size=0,script-path=scripts/langkhach/Notability.js
+
+[MITM]
+hostname=%APPEND% notability.com

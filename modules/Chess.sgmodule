@@ -1,0 +1,8 @@
+#!name=Unlock Chess
+#!desc=Chess
+
+[Script]
+Chess = type=http-response,pattern=^https:\/\/api\.chess\.com\/v\d\/membership\/apple\/info,requires-body=1,max-size=0,script-path=scripts/langkhach/Chess.js
+
+[MITM]
+hostname = %APPEND% api.chess.com

@@ -1,0 +1,10 @@
+[Proxy Group]
+PROXY = select, DIRECT, persistent=0, tolerance=50, no-alert=0, hidden=0, include-all-proxies=1, update-interval=0, interface=pdp_ip0, test-timeout=15
+CF-LOCATE = select, DIRECT, 🇻🇳VN, 🇸🇬SG, 🇯🇵JP, 🇺🇸US, no-alert=0, hidden=0, include-all-proxies=0
+FACEBOOK = select, DIRECT, include-all-proxies=0, no-alert=0, hidden=0, include-other-group=PROXY
+YOUTUBE = select, DIRECT, include-all-proxies=0, no-alert=0, hidden=0, persistent=0, include-other-group=PROXY
+TIKTOK = select, DIRECT, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=PROXY
+TELEGRAM = select, DIRECT, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=PROXY
+APPLE = select, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=PROXY
+ADVERTISING = select, REJECT-TINYGIF, REJECT-DROP, REJECT-NO-DROP, REJECT, DIRECT, update-interval=604800, no-alert=0, hidden=0, include-all-proxies=0
+

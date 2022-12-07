@@ -1,0 +1,6 @@
+#!name=Unlock Sololearn
+#!desc=Sololearn
+[MITM]
+hostname = %APPEND% api.sololearn.com
+[Script]
+Sololearn = type=http-response,pattern=^https:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$,requires-body=1,max-size=0,script-path=scripts/langkhach/sololearn.js,script-update-interval=-1

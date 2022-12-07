@@ -1,0 +1,6 @@
+#!name=Unlock Hyperweb
+#!desc=Hyperweb
+[MITM]
+hostname = %APPEND% *api.us-east-2.amazonaws.com
+[Script]
+Hyperweb = type=http-response,pattern=^https://.+\.execute-api.us-east-2.amazonaws.com/prod/verifyReceipt,requires-body=1,max-size=0,script-path=scripts/langkhach/hyperweb.js,script-update-interval=-1

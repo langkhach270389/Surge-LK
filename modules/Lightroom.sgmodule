@@ -1,0 +1,6 @@
+#!name=Unlock Lightroom
+#!desc=Lightroom
+[MITM]
+hostname=%APPEND% photos.adobe.io
+[Script]
+Lightroom = type=http-response,pattern=^https:\/\/photos\.adobe\.io\/v\d\/accounts,requires-body=1,max-size=0,script-path=scripts/langkhach/lightroom.js,script-update-interval=-1

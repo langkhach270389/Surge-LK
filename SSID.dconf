@@ -1,0 +1,6 @@
+[SSID Setting]
+MCCMNC:452-01 tfo-behaviour=force-disabled
+MCCMNC:452-02 tfo-behaviour=force-disabled, dns-server=system, encrypted-dns-server=off
+MCCMNC:452-04 tfo-behaviour=force-enabled, dns-server=system
+TYPE:WIFI tfo-behaviour=force-enabled, cellular-fallback=wifi-assist
+

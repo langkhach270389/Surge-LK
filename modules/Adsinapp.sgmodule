@@ -1,0 +1,16 @@
+#!name=Ads, tracking in apps
+#!desc=Remove ads, tracking, etc
+
+[URL Rewrite]
+^https:\/\/in\.appcenter\.ms\/logs - reject
+^https?:\/\/.+\/(.*mmo|.*bin|.*bet|.*adblock|.*advertise|.*anti|.*devtool|.*logging|pagead) - reject
+^https:\/\/(jp|www)\.pornhub\.com\/_xa\/ads.* - reject
+^https:\/\/api\.vtvgiaitri\.vn\/api\/v\d\/advertising - reject
+https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/\?[a-z]{3,7}=\d{4,8} - reject
+^https:/?\/.*?.xvideos-cdn.com.*?\/js\/.*?\/header\/.*?.js - reject
+^https?:\/\/log\.api\.zaloapp\.com\/tracking - reject
+
+
+[MITM]
+hostname = %APPEND% in.appcenter.ms, api.vtvgiaitri.vn, *phim*.*, *.pornhub.com, *.cloudfront.net, *.xvideos-cdn.com
+

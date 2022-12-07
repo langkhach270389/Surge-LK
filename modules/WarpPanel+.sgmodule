@@ -1,0 +1,26 @@
+#!name=Cloudflare with WARP Client configuration management
+#!desc=(V2) 1.1.1.1 by Cloudflare APP with WARP Client Config Management
+#!openUrl=http://boxjs.com/#/app/Cloudflare.WARP
+#!author=VirgilClyne & R·E
+#!homepage=https://github.com/VirgilClyne
+#!manual=https://github.com/VirgilClyne/Cloudflare/wiki/☁-1.1.1.1-by-Cloudflare-with-WARP
+
+[Panel]
+☁ WARP Panel = title="☁ Cloudflare Warp Info", icon="lock.icloud.fill", script-name=☁ WARP Panel, timeout=30, update-interval=3600
+
+[Script]
+# WARP Panel
+#!PROFILE-VERSION-REQUIRED 10 
+☁ WARP Panel = type=generic, timeout=10, script-path=scripts/langkhach/Cloudflare.1.1.1.1.panel.js
+# Cloudflare for Teams
+☁ WARP Teams Request = type=http-request,pattern=^https?:\/\/(api|zero-trust-client)\.cloudflareclient\.com\/(.*)\/reg\/t\.[0-9a-f]{8}-[0-9a-f]{4}-[0-5][0-9a-f]{3}-[089ab][0-9a-f]{3}-[0-9a-f]{12}, requires-body=1, script-path=https://raw.fastgit.org/VirgilClyne/Cloudflare/main/js/Cloudflare.1.1.1.1.request.js
+☁ WARP Teams Response = type=http-response,pattern=^https?:\/\/(api|zero-trust-client)\.cloudflareclient\.com\/(.*)\/reg\/t\.[0-9a-f]{8}-[0-9a-f]{4}-[0-5][0-9a-f]{3}-[089ab][0-9a-f]{3}-[0-9a-f]{12}, requires-body=1, script-path=https://raw.fastgit.org/VirgilClyne/Cloudflare/main/js/Cloudflare.1.1.1.1.response.js
+
+
+[Rule]
+IP-CIDR,1.1.1.1/32,☁️CF,no-resolve
+IP-CIDR6,2606:4700:4700::1111/128,☁️CF,no-resolve
+DOMAIN-SUFFIX,zero-trust-client.cloudflareclient.com,☁️CF
+
+[MITM]
+hostname = %APPEND% api.cloudflareclient.com, zero-trust-client.cloudflareclient.com

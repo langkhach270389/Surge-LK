@@ -1,0 +1,8 @@
+#!name=Unlock Gyroscope
+#!desc=Gyroscope
+
+[Script]
+Gyroscope = type=http-response,pattern=^https:\/\/api\.gyrosco\.pe\/v\d\/account\/$,requires-body=1,max-size=0,script-path=scripts/langkhach/gyroscope.js
+
+[MITM]
+hostname = %APPEND% api.gyrosco.pe

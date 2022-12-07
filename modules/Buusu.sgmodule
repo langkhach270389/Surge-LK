@@ -1,0 +1,6 @@
+#!name=Unlock Busuu
+#!desc=Busuu
+[MITM]
+hostname = %APPEND% api.busuu.com
+[Script]
+Busuu = type=http-response,pattern=^https:\/\/api\.busuu\.com\/users\/me,requires-body=1,max-size=0,script-path=scripts/langkhach/busuu.js,script-update-interval=0
