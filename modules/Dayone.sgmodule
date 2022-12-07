@@ -4,4 +4,4 @@
 [MITM]
 hostname = %APPEND% dayone.*
 [Script]
-Dayone = type=http-response,pattern=^https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt))$,requires-body=1,max-size=0,script-path=scripts/langkhach/dayone.js,script-update-interval=0
+Dayone = type=http-response,pattern=^https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt))$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/dayone.js,script-update-interval=0

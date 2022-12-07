@@ -2,7 +2,7 @@
 #!desc=Cercube, uyou,..
 
 [Script]
-FIX-YouTube-Login = type=http-request,pattern=^https:\/\/accounts\.google\.com\/embedded\/setup\/v2\/safarivc,requires-body=1,max-size=0,script-path=scripts/langkhach/fixyoutube.js
+FIX-YouTube-Login = type=http-request,pattern=^https:\/\/accounts\.google\.com\/embedded\/setup\/v2\/safarivc,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/fixyoutube.js
 
 [MITM]
 hostname = %APPEND% accounts.google.com

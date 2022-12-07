@@ -2,7 +2,7 @@
 #!desc=Chess
 
 [Script]
-Chess = type=http-response,pattern=^https:\/\/api\.chess\.com\/v\d\/membership\/apple\/info,requires-body=1,max-size=0,script-path=scripts/langkhach/Chess.js
+Chess = type=http-response,pattern=^https:\/\/api\.chess\.com\/v\d\/membership\/apple\/info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/Chess.js
 
 [MITM]
 hostname = %APPEND% api.chess.com

@@ -2,7 +2,7 @@
 #!desc=Pixelup
 
 [Script]
-Pixelup = type=http-request,pattern=^https:\/\/receipt-verifier\.cdwapi\.com\/receipt$,requires-body=0,script-path=scripts/langkhach/Pixelup.js
+Pixelup = type=http-request,pattern=^https:\/\/receipt-verifier\.cdwapi\.com\/receipt$,requires-body=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/Pixelup.js
 
 [URL Rewrite]
 ^https:\/\/gateway\.cerebroapi\.com\/log\/ios$ - reject

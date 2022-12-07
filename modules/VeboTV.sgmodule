@@ -5,7 +5,7 @@
 ^https:\/\/api\.vebo\.xyz\/api\/a\/(vebotv|xoilac|mitom)\/(home|live|bh) - reject //Web
 
 [Script]
-VeboTV = type=http-request,pattern=^https:\/\/api*\.(fb(data|hub)|vebo)\.xyz(\/*)v\d\/config\/ios,requires-body=0,script-path=scripts/langkhach/VeboTV.js //App
+VeboTV = type=http-request,pattern=^https:\/\/api*\.(fb(data|hub)|vebo)\.xyz(\/*)v\d\/config\/ios,requires-body=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/VeboTV.js //App
 
 [MITM]
 hostname = %APPEND% *.fbdata.xyz, *.fbhub.xyz, *.vebo.xyz

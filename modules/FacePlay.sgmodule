@@ -2,7 +2,7 @@
 #!desc=FacePlay
 
 [Script]
-FacePlay = type=http-response,pattern=^https:\/\/api\.faceplay\.cc\/users\/(info|account),requires-body=1,max-size=0,debug=1,script-path=scripts/langkhach/FacePlay.js
+FacePlay = type=http-response,pattern=^https:\/\/api\.faceplay\.cc\/users\/(info|account),requires-body=1,max-size=0,debug=1,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/FacePlay.js
 
 [MITM]
 hostname = %APPEND% api.faceplay.cc

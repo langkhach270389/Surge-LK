@@ -2,7 +2,7 @@
 #!desc=Unlock Camscanner Gold Membership 
 
 [Script]
-Camscanner = requires-body=1,script-path=scripts/langkhach/camscaner.js,type=http-response,pattern= https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?
+Camscanner = requires-body=1,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/camscaner.js,type=http-response,pattern= https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?
 
 [MITM]
 hostname = %APPEND% ap*.intsig.net

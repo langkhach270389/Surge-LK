@@ -5,4 +5,4 @@
 hostname = %APPEND% spclient.wg.spotify.com
 
 [Script]
-Spotify-Premium = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=scripts/langkhach/spotify.js,script-update-interval=0
+Spotify-Premium = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/spotify.js,script-update-interval=0

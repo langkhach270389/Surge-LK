@@ -3,4 +3,4 @@
 [MITM]
 hostname = %APPEND% api.pacer.cc
 [Script]
-Pacer = type=http-response,pattern=^https:\/\/api\.pacer\.cc\/pacer\/ios\/api\/.+\/accounts\/.+\/subscriptions$,requires-body=1,max-size=0,script-path=scripts/langkhach/Pacer.js
+Pacer = type=http-response,pattern=^https:\/\/api\.pacer\.cc\/pacer\/ios\/api\/.+\/accounts\/.+\/subscriptions$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/Pacer.js

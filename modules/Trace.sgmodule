@@ -2,7 +2,7 @@
 #!desc=Trace
 
 [Script]
-Trace = type=http-response,pattern=^https:\/\/www\.mymorpholio\.com\/api\/index\.php\/rest_iap\/receipt$,requires-body=1,max-size=0,script-path=scripts/langkhach/Trace.js
+Trace = type=http-response,pattern=^https:\/\/www\.mymorpholio\.com\/api\/index\.php\/rest_iap\/receipt$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/Trace.js
 
 [MITM]
 hostname = %APPEND% www.mymorpholio.com

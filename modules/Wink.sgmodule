@@ -2,7 +2,7 @@
 #!desc=Wink
 
 [Script]
-wink = type=http-response,pattern=^https:\/\/api-sub\.meitu\.com\/v\d\/user\/vip_info_by_group,requires-body=1,max-size=0,script-path=scripts/langkhach/wink.js
+wink = type=http-response,pattern=^https:\/\/api-sub\.meitu\.com\/v\d\/user\/vip_info_by_group,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/wink.js
 
 [MITM]
 hostname = %APPEND% api-sub.meitu.com

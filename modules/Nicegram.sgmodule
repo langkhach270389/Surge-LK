@@ -1,7 +1,7 @@
 #!name=Unlock Nicegram
 #!desc=Nicegram Premium
 [Script]
-Nicegram = type=http-response,pattern=^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$,requires-body=1,max-size=0,script-path=scripts/langkhach/Nicegram.js,script-update-interval=0
+Nicegram = type=http-response,pattern=^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/Nicegram.js,script-update-interval=0
 
 [MITM]
 hostname = %APPEND% restore-access.indream.app

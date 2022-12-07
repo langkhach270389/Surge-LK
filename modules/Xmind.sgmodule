@@ -2,7 +2,7 @@
 #!desc=Xmind
 
 [Script]
-Xmind = type=http-response,pattern=^https?:\/\/www\.xmind\.app\/_res\/devices,requires-body=1,max-size=0,script-path=scripts/langkhach/xmind.js
+Xmind = type=http-response,pattern=^https?:\/\/www\.xmind\.app\/_res\/devices,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/xmind.js
 
 [MITM]
 hostname = %APPEND% www.xmind.app

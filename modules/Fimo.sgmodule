@@ -2,7 +2,7 @@
 #!desc=Fimo
 
 [Script]
-Fimo = type=http-response,pattern=^https:\/\/server\.yoyiapp\.com\/fimo-user\/user$,requires-body=1,max-size=0,script-path=scripts/langkhach/Fimo.js
+Fimo = type=http-response,pattern=^https:\/\/server\.yoyiapp\.com\/fimo-user\/user$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/Fimo.js
 
 [MITM]
 hostname = %APPEND% server.yoyiapp.com

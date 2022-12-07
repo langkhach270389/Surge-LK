@@ -3,4 +3,4 @@
 [MITM]
 hostname = %APPEND% apimboom2.globaldelight.net
 [Script]
-Boom = type=http-response,pattern=^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$,requires-body=1,max-size=0,script-path=scripts/langkhach/verify_receipt.js
+Boom = type=http-response,pattern=^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/verify_receipt.js

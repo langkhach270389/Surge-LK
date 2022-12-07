@@ -3,4 +3,4 @@
 [MITM]
 hostname = %APPEND% *api.us-east-2.amazonaws.com
 [Script]
-Hyperweb = type=http-response,pattern=^https://.+\.execute-api.us-east-2.amazonaws.com/prod/verifyReceipt,requires-body=1,max-size=0,script-path=scripts/langkhach/hyperweb.js,script-update-interval=-1
+Hyperweb = type=http-response,pattern=^https://.+\.execute-api.us-east-2.amazonaws.com/prod/verifyReceipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/hyperweb.js,script-update-interval=-1
