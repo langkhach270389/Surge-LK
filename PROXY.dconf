@@ -1,0 +1,7 @@
+[Proxy]
+☁️CF = wireguard, section-name=Cloudflare, underlying-proxy=CF-LOCATE, test-url=http://cf.dns.nextdns.io/generate_204
+🇻🇳VN = snell, vn, 80, psk=pornhub, obfs=http, obfs-host=vt.tiktok.com, version=4, tfo=true, test-url=http://vn.dns.nextdns.io/generate_204
+🇭🇰HK = ss, hk, 443, encrypt-method=chacha20-ietf-poly1305, password=pornhub, shadow-tls-password=pornhub, shadow-tls-sni=vt.tiktok.com
+🇸🇬SG = snell, sg, 80, psk=pornhub, obfs=http, obfs-host=vt.tiktok.com, version=4, reuse=true, test-url=http://sg.dns.nextdns.io/generate_204
+🇯🇵JP = snell, jp, 80, psk=pornhub, obfs=http, obfs-host=vt.tiktok.com, version=4, reuse=true, test-url=http://jp.dns.nextdns.io/generate_204
+🇺🇸US = snell, us, 80, psk=pornhub, obfs=http, obfs-host=vt.tiktok.com, version=4, reuse=true, test-url=http://us.dns.nextdns.io/generate_204
