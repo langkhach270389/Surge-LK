@@ -3,7 +3,7 @@
 
 [URL Rewrite]
 ^https:\/\/in\.appcenter\.ms\/logs - reject
-^https?:\/\/.+\/(.*mmo|.*bin|.*bet|.*adblock|.*advertise|.*anti|.*devtool|.*logging|pagead) - reject
+^https?:\/\/.+\/(.*mmo|.*bet|.*adblock|.*advertise|.*anti|.*devtool|.*logging|pagead) - reject
 ^https:\/\/(jp|www)\.pornhub\.com\/_xa\/ads.* - reject
 ^https:\/\/api\.vtvgiaitri\.vn\/api\/v\d\/advertising - reject
 https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/\?[a-z]{3,7}=\d{4,8} - reject

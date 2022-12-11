@@ -1,12 +1,11 @@
-var obj = JSON.parse($response.body);
-obj=
+let obj=
 {
   "status": 200,
   "data": {
     "sandbox": 1,
     "purchaseTime": 1571682188,
     "giftVip": 0,
-    "productId": "VIP_yearly_29.99",
+    "productId": "com.vstudio.MIX.subscription.auto.year.88",
     "appleVip": 1,
     "expireTime": 4096532852,
     "operationVip": 1,

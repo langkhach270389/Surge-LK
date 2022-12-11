@@ -1,8 +1,0 @@
-#!name=Unlock Reddit
-#!desc=Reddit
-
-[Script]
-Reddit = type=http-response,pattern=^https:\/\/oauth\.reddit\.com\/api\/v\d\/me\.json,requires-body=1,max-size=0,script-path=scripts/langkhach/Reddit.js
-
-[MITM]
-hostname = %APPEND% oauth.reddit.com
