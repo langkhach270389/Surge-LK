@@ -5,7 +5,7 @@ let obj=
     "sandbox": 1,
     "purchaseTime": 1571682188,
     "giftVip": 0,
-    "productId": "com.vstudio.MIX.subscription.auto.year.88",
+    "productId": "VIP_yearly_29.99",
     "appleVip": 1,
     "expireTime": 4096532852,
     "operationVip": 1,
