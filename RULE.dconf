@@ -1,8 +1,4 @@
 [Rule]
-IP-CIDR,10.7.0.1/32,SideStore,no-resolve
-DOMAIN,adtima-common.zascdn.me,DIRECT // Added for: https://adtima-common.zascdn.me/html/feedback-ads/index.html?fbLandingId=2&bannerId=12816969&src_idx=1021&deviceId=3000.S8lYxxiD0u1JsxAbyWy3Y5_T-gG.1&platformid=2&zarsrc=1303&utm_source=zalo&utm_medium=zalo&utm_campaign=zalo
-DOMAIN,centralized.zaloapp.com,DIRECT // Added for: https://centralized.zaloapp.com/apps/mobile/ios
-DOMAIN,ads.platform.zalo.me,DIRECT // Added for: https://ads.platform.zalo.me/zpads/inboxnative/getads?api_key=3bb9d514148ca6dd16ba88d6bff387bf&call_id=1670236382513&clientType=2&clientVersion=488&client_type=2&client_version=488&error_code_fallback=1&session_key=J3uN.149534195.a1.THVJwcMlEEMM6j7jPQyuvMMlEELbhpZbPCBdRmQlEEK%3D&sig=2d7d51d3e89121d5be956191e14cc9e9&v=3.0
 RULE-SET,https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Surge/Facebook/Facebook.list,FACEBOOK,update-interval=604800
 RULE-SET,https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list,YOUTUBE,update-interval=604800
 RULE-SET,https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list,TIKTOK,update-interval=604800
