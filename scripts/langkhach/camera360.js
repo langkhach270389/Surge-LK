@@ -1,5 +1,4 @@
-let obj=
-{
+let obj= {
   "status": 200,
   "data": {
     "sandbox": 1,
