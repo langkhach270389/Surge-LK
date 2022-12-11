@@ -1,0 +1,8 @@
+#!name=Unlock Lensa
+#!desc=Lensa
+
+[Script]
+Lensa = type=http-response,pattern=^https:\/\/appapi\.neuralprisma\.com\/receipt\/ios,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/Lensa.js
+
+[MITM]
+hostname = %APPEND% appapi.neuralprisma.com
