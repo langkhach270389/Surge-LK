@@ -2,7 +2,6 @@
 skip-server-cert-verify = true
 # tcp-connection = true
 tcp-connection = true
-h2 = true
 client-source-address = 127.0.0.1, 192.168.1.0/24
 # ca-keystore-name = langkhach
 ca-passphrase = 8B4243CF

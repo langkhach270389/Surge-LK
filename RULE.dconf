@@ -1,13 +1,18 @@
 [Rule]
+URL-REGEX,^https:\/\/app\.monkeyuni\.net\/user\/api\/v2\/account\/load-update\?app_id=2&device_id=101927090&os=ios&info=App%20Version%3A%2030\.9\.31%0AOS%3A%20iOS%0AModel%3A%20iPhone12%2C3%0ASystem%20Version%3A%2016\.2%0ADevice%20Identifier%3A%20101927090&subversion=30\.9\.31&device_type=4&lang=vi-VN&lang_id=4&is_test=0&profile_id=1$,DIRECT // Added for: https://app.monkeyuni.net/user/api/v2/account/load-update?app_id=2&device_id=101927090&os=ios&info=App%20Version%3A%2030.9.31%0AOS%3A%20iOS%0AModel%3A%20iPhone12%2C3%0ASystem%20Version%3A%2016.2%0ADevice%20Identifier%3A%20101927090&subversion=30.9.31&device_type=4&lang=vi-VN&lang_id=4&is_test=0&profile_id=1
+URL-REGEX,^https:\/\/app\.monkeyuni\.net\/user\/api\/v2\/account\/update-profile$,DIRECT // Added for: https://app.monkeyuni.net/user/api/v2/account/update-profile
+DOMAIN,ocsp.apple.com,REJECT
+IP-CIDR,10.7.0.1/32,SideStore,no-resolve // Added for: 10.7.0.1:62078
 RULE-SET,https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Surge/Facebook/Facebook.list,FACEBOOK,update-interval=604800
 RULE-SET,https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list,YOUTUBE,update-interval=604800
 RULE-SET,https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list,TIKTOK,update-interval=604800
 RULE-SET,https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list,TELEGRAM,update-interval=604800
-AND,((OR,((RULE-SET,https://raw.fastgit.org/bigdargon/hostsVN/master/option/hostsVN-surge-FB.conf), (RULE-SET,https://raw.fastgit.org/bigdargon/hostsVN/master/option/hostsVN-surge-rule.conf))), (NOT,((RULE-SET,https://raw.fastgit.org/bigdargon/hostsVN/master/option/hostsVN-surge-exceptions-rule.conf)))),ADVERTISING
+RULE-SET,https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list,GITHUB
+AND,((OR,((RULE-SET,https://raw.fastgit.org/bigdargon/hostsVN/master/extensions/threat/surge-rule.conf), (RULE-SET,https://raw.fastgit.org/bigdargon/hostsVN/master/extensions/gambling/surge-rule.conf), (RULE-SET,https://raw.fastgit.org/bigdargon/hostsVN/master/extensions/adult/surge-rule.conf), (RULE-SET,https://raw.fastgit.org/bigdargon/hostsVN/master/option/hostsVN-surge-rule.conf))), (NOT,((RULE-SET,https://raw.fastgit.org/bigdargon/hostsVN/master/option/hostsVN-surge-exceptions-rule.conf)))),ADVERTISING
 DOMAIN,http://proxy.safebrowsing.appleproxy-safebrowsing.googleapis.com,DIRECT
 DOMAIN-SUFFIX,ls.apple.com,DIRECT // Maps
 DOMAIN-SUFFIX,store.apple.com,DIRECT // Store
-OR,((DOMAIN-SUFFIX,cdn-apple.com), (DOMAIN,raw.githubusercontent.com), (DOMAIN,iosapps.itunes.apple.com)),APPLE
+OR,((DOMAIN,raw.githubusercontent.com), (DOMAIN,iosapps.itunes.apple.com)),APPLE
 RULE-SET,SYSTEM,PROXY
 RULE-SET,LAN,DIRECT
 GEOIP,VN,PROXY,no-resolve
