@@ -1,4 +1,5 @@
 [Proxy Group]
+//
 PROXY = select, DIRECT, persistent=0, tolerance=50, no-alert=0, hidden=0, include-all-proxies=1, update-interval=0, interface=pdp_ip0, test-timeout=15
 CF-LOCATE = select, DIRECT, 🇻🇳VN, 🇸🇬SG, 🇯🇵JP, 🇺🇸US, no-alert=0, hidden=0, include-all-proxies=0
 FACEBOOK = select, DIRECT, include-all-proxies=0, no-alert=0, hidden=0, include-other-group=PROXY
