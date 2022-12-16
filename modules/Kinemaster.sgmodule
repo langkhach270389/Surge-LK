@@ -1,0 +1,6 @@
+#!name=Unlock Kinemaster
+#!desc=Kinemaster
+[MITM]
+hostname = %APPEND% api-account.kinemasters.com
+[Script]
+Kinemaster = type=http-response,pattern=^https:\/\/api-account\.kinemasters\.com\/v\d\/user\/subscribe$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/Kinemaster.js
