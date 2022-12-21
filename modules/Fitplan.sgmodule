@@ -1,0 +1,7 @@
+#!name=Unlock Fitplan
+#!desc=Fitplan
+[MITM]
+hostname = %APPEND% api*.fitplanapp.com
+
+[Script]
+Fitplan = type=http-response,pattern=^https:\/\/api.*\.fitplanapp\.com\/fitplan-server\/v\d\/user\/profile,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/Fitplan.js
