@@ -1,7 +1,3 @@
-#!name=ASN Việt Nam
-#!desc=ASN IP DIRECT
-
-[Rule]
 #ASN VIETNAM
 IP-ASN,45899,DIRECT,no-resolve //	VNPT Corp	7,722,496
 IP-ASN,7552,DIRECT,no-resolve //	Viettel Group	5,450,240
