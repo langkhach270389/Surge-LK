@@ -16,4 +16,4 @@ always-real-ip = link-ip.nextdns.io
 DOMAIN-KEYWORD,nextdns,DIRECT
 
 [MITM]
-hostname= %APPEND% *.nextdns.io
+hostname = %APPEND% *.nextdns.io
