@@ -7,7 +7,7 @@ ipv6.* = server: 2a07:a8c0::ab:cac1, 2a07:a8c1::ab:cac1
 
 [General]
 dns-server = 45.90.28.214, 45.90.30.214
-doh-server = https://dns.nextdns.io/abcac1/boybh
+doh-server = https://dns.nextdns.io/abcac1/boybh/Apple%20iPhone9%2C2
 doh-follow-outbound-mode = true
 doh-format = wireformat
 always-real-ip = link-ip.nextdns.io
