@@ -7,11 +7,13 @@ ipv6.* = server: 2a07:a8c0::ab:cac1, 2a07:a8c1::ab:cac1
 
 [General]
 dns-server = 45.90.28.214, 45.90.30.214
-doh-server = https://dns.nextdns.io/abcac1
+doh-server = https://dns.nextdns.io/abcac1/boybh
 doh-follow-outbound-mode = true
 doh-format = wireformat
-always-real-ip = 
-https://link-ip.nextdns.io/abcac1/3b639b5eeb2675c2
+always-real-ip = link-ip.nextdns.io
 
 [Rule]
 DOMAIN-KEYWORD,nextdns,DIRECT
+
+[MITM]
+hostname= %APPEND% *.nextdns.io
