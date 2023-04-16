@@ -10,7 +10,7 @@ dns-server = 45.90.28.214, 45.90.30.214
 doh-server = https://dns.nextdns.io/abcac1/boybh
 doh-follow-outbound-mode = true
 doh-format = wireformat
-always-real-ip = link-ip.nextdns.io
+always-real-ip = boybh.ddns.net
 
 [Rule]
 DOMAIN-KEYWORD,nextdns,DIRECT
