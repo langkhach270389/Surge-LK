@@ -13,4 +13,4 @@ doh-format = wireformat
 always-real-ip = boybh.ddns.net
 
 [Rule]
-DOMAIN-KEYWORD,nextdns,DIRECT
+DOMAIN-KEYWORD,*.nextdns,DIRECT
